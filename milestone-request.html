@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta name="applicategoriesion-name" content="">
+      <meta name="description" content="">
+      <title>Milestone Request Page</title>
+      <link rel="icon" href="img/Thumbnail.png">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+      <!-- Normalize -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/normalize.css">
+      <!-- Ico Font -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/icofont/css/icofont.css">
+      <!-- Style Css -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- Responsive Css -->
+      <link rel="stylesheet" type="text/css" href="responsive.css">
+   </head>
+   <body>
+      <!-- Header Start -->
+      <header>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 col-md-6 col-lg-7 order-sm-1 order-2 primary-menu-tm">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="home.html">Home (Without Login)</a></li>
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="index.html">Dashboard</a></li>
+                                 <li><a class="dropdown-item" href="financial-dashboard.html">Financial Dashboard</a></li>
+                                 <li><a class="dropdown-item" href="chatting-page.html">Live Chat</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Hire Freelancer<span class="sr-only">(current)</span></a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown">
+                                    <a class="dropdown-item" href="post-project.html">Post a Project</a>
+                                 </li>
+                                 <li><a class="dropdown-item" href="find-freelancer.html">Find Freelancer</a></li>
+                                 <li><a class="dropdown-item" href="dispute-page.html">Dispute</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="job-search.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Find Work</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="job-search.html">Browse Projects</a></li>
+                                 <li><a class="dropdown-item" href="bidding-page.html">Project Bidding</a></li>
+                                 <li><a class="dropdown-item" href="project-awarded.html">Project Awarded</a></li>
+                                 <li><a class="dropdown-item" href="project-in-progress.html">Project In Progress</a></li>
+                                 <li><a class="dropdown-item" href="milestone-request.html">Milestone Request</a></li>
+                                 <li><a class="dropdown-item" href="freelancer-profile-portfolio.html">Freelancer Profile</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="blog-page-right-sidebar.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="blog-page-left-sidebar.html">Blog Left Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="blog-page-right-sidebar.html">Blog Right Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="single-post-left-sidebar.html">Single Post Left Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="single-post-right-sidebar.html">Single Post Right Sidebar</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                           <input class="form-control mr-sm-2" type="search" placeholder="&#xed60; &#xeb25;  Find Freelancer" aria-label="Search" data-toggle="modal" data-target="#search-freelancer">
+                        </form>
+                     </div>
+                  </nav>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-5 order-sm-2 order-1 header-notification">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <ul class="navbar-nav ml-auto ymp-right-menu">
+                        <li class="nav-item">
+                           <a href="financial-dashboard.html" class="nav-link usd">USD $350 <span>32</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon heart" href="#" data-toggle="modal" data-target="#followed"><i class="far fa-heart"></i><span>1</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon bell" href="#" data-toggle="modal" data-target="#notification"><i class="far fa-bell"></i><span>1</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon envolope" href="#" data-toggle="modal" data-target="#unread-messages"><i class="far fa-envelope"></i><span>1</span></a>
+                        </li>
+                        <li class="menu-bar dropdown dropdown-user">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <img src="img/profile-img.jpg" alt="">
+                           <span>Hi Sasha</span>
+                           </a>
+                           <ul class="dropdown-menu">
+                              <li class="nav-item dropdown"><a class="dropdown-item" href="freelancer-profile-portfolio.html">My Profile</a></li>
+                              <li><a class="dropdown-item" href="chatting-page.html">Message</a></li>
+                              <li><a class="dropdown-item" href="financial-dashboard.html">Financial Dashboard</a></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Header End -->
+      <!-- Top 5 Freelancer Modal Start -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="search-freelancer" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content top-freelancer">
+                     <div class="modal-body">
+                        <div class="modal-header">
+                           <p>Top 5 Freelancers</p>
+                           <a href="#">View</a>
+                        </div>
+                        <div class="form-content">
+                           <ul>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-1.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Design Rockers</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Design,</li>
+                                          <li>Photoshop,</li>
+                                          <li>Illustrator,</li>
+                                          <li>Illustration...</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>99% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-2.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Mahmudul Hasan Maruf</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Illustrator,</li>
+                                          <li>Broch...</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>100% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-3.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Sahinur Salafee</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Brochure Design.....</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>98% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-4.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>The Designers Group</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Adobe Photoshop... </li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>99% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-5.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Design Stockers</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Adobe Photoshop.....</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>100% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                           <div class="project-preview">
+                              <ul>
+                                 <li>
+                                    <h6 class="title">Projects</h6>
+                                    <p class="view"><a href="#">View</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design Project</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design</li>
+                                       <li>$20-$60 USD</li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Hire a Graphic</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$2-$10 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Logo</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$20-$40 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Professional e Commerce Website</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Web Design,</li>
+                                       <li>UI Design</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$700 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Tatto Ink</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Logo Design</li>
+                                       <li><span>$250-$400 USD</span></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                        <div class="tm-search">
+                           <a href="#">
+                              <span><i class="icofont icofont-search"></i></span>
+                              <p>Search all results for “web design”</p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->	
+      <!-- Modal Followed Projects -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="followed" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content top-freelancer">
+                     <div class="modal-body">
+                        <div class="form-content">
+                           <div class="project-preview">
+                              <ul>
+                                 <li>
+                                    <h6 class="title">Projects From Followed Employeers</h6>
+                                    <p class="view"><a href="#">View More</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design Project</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design</li>
+                                       <li>$20-$60 USD</li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Hire a Graphic</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$2-$10 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Logo</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$20-$40 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Professional e Commerce Website</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Web Design,</li>
+                                       <li>UI Design</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$700 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design Project</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design</li>
+                                       <li>$20-$60 USD</li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Hire a Graphic</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$2-$10 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Tatto Ink</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Logo Design</li>
+                                       <li><span>$250-$400 USD</span></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->	
+      <!-- Modal Message -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="unread-messages" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content unread-messages">
+                     <div class="modal-body">
+                        <div class="chatting-page">
+                           <div class="chat-freelancers">
+                              <div class="users">
+                                 <ul>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-1.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">Amazingsoftware</a></p>
+                                          <p><a href="#" class="project-name">Multi Vendor Website</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-2.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">John65</a></p>
+                                          <p><a href="#" class="project-name">Write Some Software</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-3.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">BabyGirl</a></p>
+                                          <p><a href="#" class="project-name">Create Powerpoint Templete</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-4.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">MarketingWizard</a></p>
+                                          <p><a href="#" class="project-name">Write code get google drive</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-5.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">Jenelia</a></p>
+                                          <p><a href="#" class="project-name">Google Write Code</a></p>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->
+      <!-- Modal Notification -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="notification" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content unread-messages">
+                     <div class="modal-body">
+                        <div class="chatting-page">
+                           <div class="chat-freelancers">
+                              <div class="users">
+                                 <ul>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-1.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Rafsan</b> released a $300.00 USD milestone payment for project <b>Website Designing</b></p>
+                                          <p class="notification-time">About 20 minutes ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-2.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>John Deo</b> released a $450.00 USD milestone payment for project <b>Website Development</b></p>
+                                          <p class="notification-time">About 40 minutes ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-3.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Denial Cook</b> released a $550.00 USD milestone payment for project <b>Graphic Design</b></p>
+                                          <p class="notification-time">About 50 minutes ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-4.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Mikel</b> released a $700.00 USD milestone payment for project <b>Logo Design</b></p>
+                                          <p class="notification-time">About 1 hour ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-5.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Reek</b> released a $850.00 USD milestone payment for project <b>Wordpress Development</b></p>
+                                          <p class="notification-time">About 1 hour 20 minutes ago</p>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->
+      <section id="milestone-page">
+         <div class="container">
+            <div class="milestone-page">
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <div class="bidding-title">
+                        <h3>Build an eCommerce Website</h3>
+                     </div>
+                  </div>
+               </div>
+               <div class="bidding-header">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <div class="bidding-info">
+                        <div class="bidding-details">
+                           <div class="row">
+                              <div class="col-sm-12 col-md-7 col-lg-7">
+                                 <div class="bid-info">
+                                    <div class="freelancer-bidding">
+                                       <h5>Freelancer Bidding(44)</h5>
+                                       <ul>
+                                          <li><a href="#"><img src="img/freelancer-1.jpg" alt=""></a></li>
+                                          <li><a href="#"><img src="img/freelancer-2.jpg" alt=""></a></li>
+                                          <li><a href="#"><img src="img/freelancer-3.jpg" alt=""></a></li>
+                                          <li><a href="#">+ 4 others</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="avg-bidding">
+                                       <h5>Avg Bid (USD)</h5>
+                                       <h3 class="amount">$ 1350</h3>
+                                    </div>
+                                    <div class="budget">
+                                       <h5>Project Budget(USD)</h5>
+                                       <h3 class="amount">$500 - $1500</h3>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-12 col-md-2 col-lg-2">
+                              </div>
+                              <div class="col-sm-12 col-md-3 col-lg-3">
+                                 <div class="open-button">
+                                    <h3>In Progress</h3>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-sm-12 col-md-9 col-lg-9">
+                     <div class="project-description">
+                        <h4 class="title">Project Description</h4>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+                        <br>
+                        <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form.</p>
+                        <br>
+                        <p>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                        <br>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-3 col-lg-3">
+                     <div class="employee-info">
+                        <h4 class="title">About the employer</h4>
+                        <img src="img/employer-1.jpg" alt="">
+                        <div class="follow-btn">
+                           <a href="#" class="button-ymp">Follow</a>
+                        </div>
+                        <div class="review">
+                           <ul>
+                              <li><a href="#">5.0</a></li>
+                              <li><a href="#"><i class="icofont icofont-star"></i></a></li>
+                              <li><a href="#"><i class="icofont icofont-star"></i></a></li>
+                              <li><a href="#"><i class="icofont icofont-star"></i></a></li>
+                              <li><a href="#"><i class="icofont icofont-star"></i></a></li>
+                              <li><a href="#"><i class="icofont icofont-star"></i></a></li>
+                              <li>(25 Reviews)</li>
+                              <li><a href="#"><img src="img/flag.jpg" alt=""></a></li>
+                           </ul>
+                        </div>
+                        <div class="social-icon">
+                           <ul>
+                              <li><a href="#" class="active"><i class="icofont icofont-cur-dollar-true"></i></a></li>
+                              <li><a href="#">Verified</a></li>
+                              <li><a href="#" class="active"><i class="icofont icofont-cur-dollar-true"></i></a></li>
+                              <li><a href="#" class="active"><i class="icofont icofont-ui-message"></i></a></li>
+                              <li><a href="#"><i class="icofont icofont-contacts"></i></a></li>
+                              <li><a href="#"><i class="icofont icofont-ui-call"></i></a></li>
+                           </ul>
+                        </div>
+                        <div class="project-id">
+                           <h6 class="title">Project ID: 15535012</h6>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <div class="skill-requirement">
+                        <h4 class="title">Skill Required</h4>
+                        <ul>
+                           <li><a href="#">Graphic Design,</a></li>
+                           <li><a href="#">HTML,</a></li>
+                           <li><a href="#">Website Design,</a></li>
+                           <li><a href="#">WordPress,</a></li>
+                           <li><a href="#">My SQL,</a></li>
+                           <li><a href="#">JAVA,</a></li>
+                           <li><a href="#">CSS 3,</a></li>
+                           <li><a href="#">Adobe Photoshop</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="row padding-bottom-20">
+                  <div class="col-sm-12 col-md-8 col-lg-8">
+                     <div class="freelancers-awared">
+                        <h4 class="title">Freelancers Awarded</h4>
+                        <div class="freelancers">
+                           <div class="about-freelancer">
+                              <img src="img/freelancer-award.jpg" alt="">
+                              <div class="portfolio-btn">
+                                 <a href="#" class="button-ymp">Portfolio</a>
+                              </div>
+                           </div>
+                           <div class="award-info">
+                              <ul>
+                                 <li><a href="#">Sasha Stephanie</a></li>
+                                 <li><img src="img/flag-2.jpg" alt=""> 5 months ago</li>
+                              </ul>
+                           </div>
+                           <div class="award-details">
+                              <p>A proposal has not yet been provided for some problem</p>
+                              <img src="img/flag.jpg" alt="">
+                           </div>
+                           <div class="verify-btn">
+                              <p><i class="icofont icofont-ui-check"></i> Accepted</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-2 col-lg-2 mobile-float-1">
+                     <div class="reputation">
+                        <h4 class="title">Reputation</h4>
+                        <div class="review">
+                           <ul>
+                              <li><a href="#">5.0</a></li>
+                              <li><a href="#"><i class="icofont icofont-star"></i></a></li>
+                              <li><a href="#"><i class="icofont icofont-star"></i></a></li>
+                              <li><a href="#"><i class="icofont icofont-star"></i></a></li>
+                              <li><a href="#"><i class="icofont icofont-star"></i></a></li>
+                              <li><a href="#"><i class="icofont icofont-star"></i></a></li>
+                           </ul>
+                           <p>25 Reviews</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-2 col-lg-2 mobile-float-2">
+                     <div class="project-bid">
+                        <h4 class="title">Bid (USD)</h4>
+                        <h3>USD 1300</h3>
+                        <p>In 10 Days</p>
+                        <a href="#">Change My Bid</a>
+                        <a href="#">Cancel project</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <div class="milestone-wrapper">
+                        <div class="milestone">
+                           <h3>Milestones</h3>
+                           <a class="float add-milestone" href="#">Request Milestone</a>
+                        </div>
+                     </div>
+                     <div class="db-table table-responsive">
+                        <table class="table">
+                           <thead>
+                              <tr>
+                                 <th>Amount</th>
+                                 <th>Description</th>
+                                 <th>Status</th>
+                                 <th>Action</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>$300.00 USD</td>
+                                 <td>Makeup Design</td>
+                                 <td>In Progress</td>
+                                 <td>
+                                    <div class="btn-group">
+                                       <button class="btn btn-secondary btn-sm" type="button">
+                                       Ask Release
+                                       </button>
+                                       <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <span class="sr-only">Toggle Dropdown</span>
+                                       </button>
+                                       <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Ask Release</a>
+                                          <a class="dropdown-item" href="#">Cancel</a>
+                                          <a class="dropdown-item" href="#">Dispute</a>
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>$200.00 USD</td>
+                                 <td>PSD to HTML</td>
+                                 <td>In Progress</td>
+                                 <td>
+                                    <div class="btn-group">
+                                       <button class="btn btn-secondary btn-sm" type="button">
+                                       Ask Release
+                                       </button>
+                                       <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <span class="sr-only">Toggle Dropdown</span>
+                                       </button>
+                                       <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Ask Release</a>
+                                          <a class="dropdown-item" href="#">Cancel</a>
+                                          <a class="dropdown-item" href="#">Dispute</a>
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>$200.00 USD</td>
+                                 <td>Responsive</td>
+                                 <td>In Progress</td>
+                                 <td>
+                                    <div class="btn-group">
+                                       <button class="btn btn-secondary btn-sm" type="button">
+                                       Ask Release
+                                       </button>
+                                       <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <span class="sr-only">Toggle Dropdown</span>
+                                       </button>
+                                       <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Ask Release</a>
+                                          <a class="dropdown-item" href="#">Cancel</a>
+                                          <a class="dropdown-item" href="#">Dispute</a>
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>$250.00 USD</td>
+                                 <td>Wordpress Conversion</td>
+                                 <td>In Progress</td>
+                                 <td>
+                                    <div class="btn-group">
+                                       <button class="btn btn-secondary btn-sm" type="button">
+                                       Ask Release
+                                       </button>
+                                       <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <span class="sr-only">Toggle Dropdown</span>
+                                       </button>
+                                       <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Ask Release</a>
+                                          <a class="dropdown-item" href="#">Cancel</a>
+                                          <a class="dropdown-item" href="#">Dispute</a>
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>$350.00 USD</td>
+                                 <td>Final QA</td>
+                                 <td>In Progress</td>
+                                 <td>
+                                    <div class="btn-group">
+                                       <button class="btn btn-secondary btn-sm" type="button">
+                                       Ask Release
+                                       </button>
+                                       <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <span class="sr-only">Toggle Dropdown</span>
+                                       </button>
+                                       <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Ask Release</a>
+                                          <a class="dropdown-item" href="#">Cancel</a>
+                                          <a class="dropdown-item" href="#">Dispute</a>
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Total: $1300 USD</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer Start -->
+      <footer id="footer" class="margin-top">
+         <div class="footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">About Us</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Quick Links</h4>
+                     <ul>
+                        <li><a href="#">Success stories</a></li>
+                        <li><a href="#">Take the first Step</a></li>
+                        <li><a href="#">Get started in minutes</a></li>
+                        <li><a href="#">Featured on</a></li>
+                        <li><a href="#">Top 5 freelancers</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Support</h4>
+                     <ul>
+                        <li><a href="#">Live chat</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Support HQ</a></li>
+                        <li><a href="#">Trust & Safety</a></li>
+                        <li><a href="#">Submit a Ticket</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Get In Touch</h4>
+                     <div class="contact">
+                        <ul>
+                           <li>
+                              <i class="icofont icofont-iphone"></i>
+                              <a href="tel:+8801717722179">+880 1717 722179</a>
+                           </li>
+                           <li>
+                              <i class="icofont icofont-send-mail"></i>
+                              <a href="mailto:hq@thememom.com">hq@thememom.com</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="footer-inline">
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-skype"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-brand-linkedin"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-youtube-play"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-pinterest"></i></a></li>
+                        </ul>
+                        <ul class="applicategoriesion-store">
+                           <li><a href="#"><img src="img/store/app-store.png" alt=""></a></li>
+                           <li><a href="#"><img src="img/store/play-store.png" alt=""></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <p class="copyright">© 2018 <a href="#">Yes Market Place</a> International Limited | Developed by <a href="https://thememom.com" title="ThemeMom" target="_blank">ThemeMom</a> </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End -->
+      <script src="js/vendor/font-awesome.js"></script>
+      <script src="js/vendor/tether.min.js"></script>
+      <script src="js/vendor/popper.min.js"></script>
+      <script src="js/vendor/jquery-3.3.1.slim.min.js"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>

@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta name="application-name" content="">
+      <meta name="description" content="">
+      <title>Financial Dasboard</title>
+      <link rel="icon" href="img/Thumbnail.png">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+      <!-- Normalize -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/normalize.css">
+      <!-- Ico Font -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/icofont/css/icofont.css">
+      <!-- Style Css -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- Responsive Css -->
+      <link rel="stylesheet" type="text/css" href="responsive.css">
+   </head>
+   <body>
+      <!-- Header Start -->
+      <header>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 col-md-6 col-lg-7 order-sm-1 order-2 primary-menu-tm">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="home.html">Home (Without Login)</a></li>
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="index.html">Dashboard</a></li>
+                                 <li><a class="dropdown-item" href="financial-dashboard.html">Financial Dashboard</a></li>
+                                 <li><a class="dropdown-item" href="chatting-page.html">Live Chat</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Hire Freelancer<span class="sr-only">(current)</span></a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown">
+                                    <a class="dropdown-item" href="post-project.html">Post a Project</a>
+                                 </li>
+                                 <li><a class="dropdown-item" href="find-freelancer.html">Find Freelancer</a></li>
+                                 <li><a class="dropdown-item" href="dispute-page.html">Dispute</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="job-search.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Find Work</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="job-search.html">Browse Projects</a></li>
+                                 <li><a class="dropdown-item" href="bidding-page.html">Project Bidding</a></li>
+                                 <li><a class="dropdown-item" href="project-awarded.html">Project Awarded</a></li>
+                                 <li><a class="dropdown-item" href="project-in-progress.html">Project In Progress</a></li>
+                                 <li><a class="dropdown-item" href="milestone-request.html">Milestone Request</a></li>
+                                 <li><a class="dropdown-item" href="freelancer-profile-portfolio.html">Freelancer Profile</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="blog-page-right-sidebar.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="blog-page-left-sidebar.html">Blog Left Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="blog-page-right-sidebar.html">Blog Right Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="single-post-left-sidebar.html">Single Post Left Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="single-post-right-sidebar.html">Single Post Right Sidebar</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                           <input class="form-control mr-sm-2" type="search" placeholder="&#xed60; &#xeb25;  Find Freelancer" aria-label="Search" data-toggle="modal" data-target="#search-freelancer">
+                        </form>
+                     </div>
+                  </nav>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-5 order-sm-2 order-1 header-notification">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <ul class="navbar-nav ml-auto ymp-right-menu">
+                        <li class="nav-item">
+                           <a href="financial-dashboard.html" class="nav-link usd">USD $350 <span>32</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon heart" href="#" data-toggle="modal" data-target="#followed"><i class="far fa-heart"></i><span>1</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon bell" href="#" data-toggle="modal" data-target="#notification"><i class="far fa-bell"></i><span>1</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon envolope" href="#" data-toggle="modal" data-target="#unread-messages"><i class="far fa-envelope"></i><span>1</span></a>
+                        </li>
+                        <li class="menu-bar dropdown dropdown-user">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <img src="img/profile-img.jpg" alt="">
+                           <span>Hi Sasha</span>
+                           </a>
+                           <ul class="dropdown-menu">
+                              <li class="nav-item dropdown"><a class="dropdown-item" href="freelancer-profile-portfolio.html">My Profile</a></li>
+                              <li><a class="dropdown-item" href="chatting-page.html">Message</a></li>
+                              <li><a class="dropdown-item" href="financial-dashboard.html">Financial Dashboard</a></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Header End -->
+      <!-- Modal Start -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="search-freelancer" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content top-freelancer">
+                     <div class="modal-body">
+                        <div class="modal-header">
+                           <p>Top 5 Freelancers</p>
+                           <a href="#">View</a>
+                        </div>
+                        <div class="form-content">
+                           <ul>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-1.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Design Rockers</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Design,</li>
+                                          <li>Photoshop,</li>
+                                          <li>Illustrator,</li>
+                                          <li>Illustration...</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>99% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-2.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Mahmudul Hasan Maruf</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Illustrator,</li>
+                                          <li>Broch...</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>100% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-3.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Sahinur Salafee</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Brochure Design.....</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>98% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-4.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>The Designers Group</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Adobe Photoshop... </li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>99% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-5.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Design Stockers</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Adobe Photoshop.....</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>100% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                           <div class="project-preview">
+                              <ul>
+                                 <li>
+                                    <h6 class="title">Projects</h6>
+                                    <p class="view"><a href="#">View</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design Project</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design</li>
+                                       <li>$20-$60 USD</li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Hire a Graphic</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$2-$10 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Logo</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$20-$40 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Professional e Commerce Website</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Web Design,</li>
+                                       <li>UI Design</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$700 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Tatto Ink</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Logo Design</li>
+                                       <li><span>$250-$400 USD</span></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                        <div class="tm-search">
+                           <a href="#">
+                              <span><i class="icofont icofont-search"></i></span>
+                              <p>Search all results for “web design”</p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->	
+      <!-- Modal Followed Projects -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="followed" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content top-freelancer">
+                     <div class="modal-body">
+                        <div class="form-content">
+                           <div class="project-preview">
+                              <ul>
+                                 <li>
+                                    <h6 class="title">Projects From Followed Employeers</h6>
+                                    <p class="view"><a href="#">View More</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design Project</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design</li>
+                                       <li>$20-$60 USD</li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Hire a Graphic</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$2-$10 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Logo</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$20-$40 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Professional e Commerce Website</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Web Design,</li>
+                                       <li>UI Design</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$700 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design Project</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design</li>
+                                       <li>$20-$60 USD</li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Hire a Graphic</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$2-$10 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Tatto Ink</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Logo Design</li>
+                                       <li><span>$250-$400 USD</span></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->	
+      <!-- Modal Message -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="unread-messages" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content unread-messages">
+                     <div class="modal-body">
+                        <div class="chatting-page">
+                           <div class="chat-freelancers">
+                              <div class="users">
+                                 <ul>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-1.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">Amazingsoftware</a></p>
+                                          <p><a href="#" class="project-name">Multi Vendor Website</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-2.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">John65</a></p>
+                                          <p><a href="#" class="project-name">Write Some Software</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-3.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">BabyGirl</a></p>
+                                          <p><a href="#" class="project-name">Create Powerpoint Templete</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-4.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">MarketingWizard</a></p>
+                                          <p><a href="#" class="project-name">Write code get google drive</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-5.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">Jenelia</a></p>
+                                          <p><a href="#" class="project-name">Google Write Code</a></p>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->
+      <!-- Modal Notification -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="notification" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content unread-messages">
+                     <div class="modal-body">
+                        <div class="chatting-page">
+                           <div class="chat-freelancers">
+                              <div class="users">
+                                 <ul>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-1.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Rafsan</b> released a $300.00 USD milestone payment for project <b>Website Designing</b></p>
+                                          <p class="notification-time">About 20 minutes ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-2.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>John Deo</b> released a $450.00 USD milestone payment for project <b>Website Development</b></p>
+                                          <p class="notification-time">About 40 minutes ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-3.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Denial Cook</b> released a $550.00 USD milestone payment for project <b>Graphic Design</b></p>
+                                          <p class="notification-time">About 50 minutes ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-4.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Mikel</b> released a $700.00 USD milestone payment for project <b>Logo Design</b></p>
+                                          <p class="notification-time">About 1 hour ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-5.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Reek</b> released a $850.00 USD milestone payment for project <b>Wordpress Development</b></p>
+                                          <p class="notification-time">About 1 hour 20 minutes ago</p>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->
+      <!-- Manage Transactions Start -->
+      <section id="manage-transection">
+         <div class="container">
+            <div class="manage-transection">
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <div class="db-table">
+                        <div class="db-info-head">
+                           <h3>Manage Transactions</h3>
+                           <h6><a href="#">View All Milestones</a></h6>
+                           <nav>
+                              <div class="nav nav-tabs">
+                                 <a class="nav-item nav-link active" data-toggle="tab" href="#nav-Milestones" aria-selected="true">Milestones</a>
+                                 <a class="nav-item nav-link" data-toggle="tab" href="#nav-Request" aria-selected="false">Multistone Request</a>
+                                 <a class="nav-item nav-link" id="nav-Withdrawls-tab" data-toggle="tab" href="#nav-Withdrawls" aria-selected="false">Withdrawls</a>
+                                 <a class="nav-item nav-link" id="nav-History-tab" data-toggle="tab" href="#nav-History" aria-selected="false">History</a>
+                                 <a class="nav-item nav-link" id="nav-Affiliate-tab" data-toggle="tab" href="#nav-Affiliate" aria-selected="false">Affiliate Earnings</a>
+                              </div>
+                           </nav>
+                        </div>
+                        <div class="tab-content">
+                           <!-- Milestones -->
+                           <div class="tab-pane fade show active" id="nav-Milestones">
+                              <div class="db-info-details table-responsive">
+                                 <table class="table">
+                                    <thead>
+                                       <tr>
+                                          <th scope="col">Project Name</th>
+                                          <th scope="col">Amount</th>
+                                          <th scope="col">Description</th>
+                                          <th scope="col">Status</th>
+                                          <th scope="col">Actions</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>Create an online training platform</td>
+                                          <td>$<span class="milestone-amount">2300.00</span></td>
+                                          <td>Initial Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Wordpress Woocommerce Fix</td>
+                                          <td>$<span class="milestone-amount">400.00</span></td>
+                                          <td>Milestone Two</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>3D logo animation intro</td>
+                                          <td>$<span class="milestone-amount">550.00</span></td>
+                                          <td>Upon Complison</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Build 2 websites on Wordpress</td>
+                                          <td>$<span class="milestone-amount">900.00</span></td>
+                                          <td>Initial Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Create an online training platform</td>
+                                          <td>$<span class="milestone-amount">2250.00</span></td>
+                                          <td>Mockup Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Total</td>
+                                          <td></td>
+                                          <td>$<span class="total-milestone"></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                           <!-- Milestones Request -->
+                           <div class="tab-pane fade" id="nav-Request">
+                              <div class="db-info-details table-responsive">
+                                 <table class="table">
+                                    <thead>
+                                       <tr>
+                                          <th scope="col">Employer</th>
+                                          <th scope="col">Project Name</th>
+                                          <th scope="col">Amount</th>
+                                          <th scope="col">Description</th>
+                                          <th scope="col">Status</th>
+                                          <th scope="col">Actions</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>John Deo</td>
+                                          <td>Create an website training platform</td>
+                                          <td>$<span class="mrequest-amount">1100.00</span></td>
+                                          <td>Initial Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Mikel Clark</td>
+                                          <td>Create an web development platform</td>
+                                          <td>$<span class="mrequest-amount">900.00</span></td>
+                                          <td>Milestone Three</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>John Cena</td>
+                                          <td>3D logo animation</td>
+                                          <td>$<span class="mrequest-amount">120.00</span></td>
+                                          <td>Upon Complison</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Tywin Lannister</td>
+                                          <td>Build 3 websites on Wordpress</td>
+                                          <td>$<span class="mrequest-amount">300.00</span></td>
+                                          <td>Initial Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Sophia Turnar</td>
+                                          <td>Create an website training platform</td>
+                                          <td>$<span class="mrequest-amount">150.00</span></td>
+                                          <td>Mockup Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Total</td>
+                                          <td></td>
+                                          <td>$<span class="total-mrequest"></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                           <!-- Withdrawls -->
+                           <div class="tab-pane fade" id="nav-Withdrawls">
+                              <div class="db-info-details table-responsive">
+                                 <table class="table">
+                                    <thead>
+                                       <tr>
+                                          <th scope="col">Employer</th>
+                                          <th scope="col">Project Name</th>
+                                          <th scope="col">Amount</th>
+                                          <th scope="col">Description</th>
+                                          <th scope="col">Status</th>
+                                          <th scope="col">Actions</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>Mikel John</td>
+                                          <td>Website for car business</td>
+                                          <td>$<span class="withdrawls-amount">1200.00</span></td>
+                                          <td>Initial Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>James Smith</td>
+                                          <td>Rubi and rails Project</td>
+                                          <td>$<span class="withdrawls-amount">2970.00</span></td>
+                                          <td>Milestone Two</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Robart Smith</td>
+                                          <td>Web Plugin Expert Required</td>
+                                          <td>$<span class="withdrawls-amount">550.00</span></td>
+                                          <td>Upon Complison</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Maria Garcia</td>
+                                          <td>Html Webpage Development</td>
+                                          <td>$<span class="withdrawls-amount">110.00</span></td>
+                                          <td>Initial Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>David Smith</td>
+                                          <td>Web Plugin expert required</td>
+                                          <td>$<span class="withdrawls-amount">53.00</span></td>
+                                          <td>Mockup Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Total</td>
+                                          <td></td>
+                                          <td>$<span class="total-withdrawls"></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                           <!-- Nav History -->
+                           <div class="tab-pane fade" id="nav-History">
+                              <div class="db-info-details table-responsive">
+                                 <table class="table">
+                                    <thead>
+                                       <tr>
+                                          <th scope="col">Employer</th>
+                                          <th scope="col">Project Name</th>
+                                          <th scope="col">Amount</th>
+                                          <th scope="col">Description</th>
+                                          <th scope="col">Status</th>
+                                          <th scope="col">Actions</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>Maria Rodriguez</td>
+                                          <td>Digital Currency Trading System</td>
+                                          <td>$<span class="history-amount">174.00</span></td>
+                                          <td>Initial Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Mary Smith</td>
+                                          <td>Wordpress Theme Install</td>
+                                          <td>$<span class="milestone-amount">20.00</span></td>
+                                          <td>Milestone Two</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Maria Hernandez</td>
+                                          <td>3D logo design</td>
+                                          <td>$<span class="history-amount">120.00</span></td>
+                                          <td>Upon Complison</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Xandra Wizmin</td>
+                                          <td>Build 2 websites on Wordpress</td>
+                                          <td>$<span class="history-amount">950.00</span></td>
+                                          <td>Initial Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Sophia Regina</td>
+                                          <td>Create an online training platform</td>
+                                          <td>$<span class="history-amount">250.00</span></td>
+                                          <td>Mockup Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Total</td>
+                                          <td></td>
+                                          <td>$<span class="total-history"></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                           <!-- Affiliate Earning -->
+                           <div class="tab-pane fade" id="nav-Affiliate">
+                              <div class="db-info-details table-responsive">
+                                 <table class="table">
+                                    <thead>
+                                       <tr>
+                                          <th scope="col">Employer</th>
+                                          <th scope="col">Project Name</th>
+                                          <th scope="col">Amount</th>
+                                          <th scope="col">Description</th>
+                                          <th scope="col">Status</th>
+                                          <th scope="col">Actions</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>Sahinur Salafee</td>
+                                          <td>Create an online training platform</td>
+                                          <td>$<span class="affiliate-amount">2300.00</span></td>
+                                          <td>Initial Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Sasha Rose</td>
+                                          <td>Wordpress Woocommerce Fix</td>
+                                          <td>$<span class="affiliate-amount">400.00</span></td>
+                                          <td>Milestone Two</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Vaness Wille</td>
+                                          <td>3D logo animation intro</td>
+                                          <td>$<span class="affiliate-amount">500.00</span></td>
+                                          <td>Upon Complison</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Xandra Wizmin</td>
+                                          <td>Build 2 websites on Wordpress</td>
+                                          <td>$<span class="affiliate-amount">950.00</span></td>
+                                          <td>Initial Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Sophia Regina</td>
+                                          <td>Create an online training platform</td>
+                                          <td>$<span class="affiliate-amount">250.00</span></td>
+                                          <td>Mockup Milestone</td>
+                                          <td>In Progress</td>
+                                          <td>
+                                             <div class="btn-group">
+                                                <button class="btn btn-secondary btn-sm" type="button">
+                                                Release
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">Ask Release</a>
+                                                   <a class="dropdown-item" href="#">Cancel</a>
+                                                   <a class="dropdown-item" href="#">Dispute</a>
+                                                </div>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>Total</td>
+                                          <td></td>
+                                          <td>$<span class="total-affiliate"></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End -->
+      <!-- Profit Loss Start -->
+      <section id="profit-loss">
+         <div class="container">
+            <div class="earning-payments">
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <div class="chart  white-bg">
+                        <div class="chart-info">
+                           <h3>Profit & Loss</h3>
+                           <nav>
+                              <div class="nav nav-tabs" role="tablist">
+                                 <a class="nav-item nav-link active" id="nav-Month-tab" data-toggle="tab" href="#nav-Month" role="tab" aria-controls="nav-Month" aria-selected="true">Month</a>
+                                 <a class="nav-item nav-link" id="nav-quarter-tab" data-toggle="tab" href="#nav-quarter" role="tab" aria-controls="nav-quarter" aria-selected="false">Quarter</a>
+                                 <a class="nav-item nav-link" id="nav-half-year-tab" data-toggle="tab" href="#nav-half-year" role="tab" aria-controls="nav-half-year" aria-selected="false">Half Year</a>
+                                 <a class="nav-item nav-link" id="nav-Year-tab" data-toggle="tab" href="#nav-Year" role="tab" aria-controls="nav-Year" aria-selected="false">Year</a>
+                                 <a class="nav-item nav-link" id="nav-two-years-tab" data-toggle="tab" href="#nav-two-years" role="tab" aria-controls="nav-two-years" aria-selected="false">Two Years</a>
+                              </div>
+                           </nav>
+                        </div>
+                        <div class="tab-content">
+                           <div class="tab-pane fade show active" id="nav-Month" role="tabpanel" aria-labelledby="nav-Month-tab">
+                              <canvas id="month"></canvas>
+                           </div>
+                           <div class="tab-pane fade" id="nav-quarter" role="tabpanel" aria-labelledby="nav-quarter-tab">
+                              <canvas id="quarter"></canvas>
+                           </div>
+                           <div class="tab-pane fade" id="nav-half-year" role="tabpanel" aria-labelledby="nav-half-year-tab">
+                              <canvas id="half-year"></canvas>
+                           </div>
+                           <div class="tab-pane fade" id="nav-Year" role="tabpanel">
+                              <canvas id="year"></canvas>
+                           </div>
+                           <div class="tab-pane fade" id="nav-two-years" role="tabpanel" aria-labelledby="nav-two-years-tab">
+                              <canvas id="two-years"></canvas>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End -->	
+      <!-- Quick Stats Start -->
+      <section id="quick-stats">
+         <div class="container">
+            <div class="quick-stats">
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12 ">
+                     <div class="db-table">
+                        <div class="db-info-head">
+                           <h3>Quick Stats</h3>
+                           <nav>
+                              <div class="nav nav-tabs" role="tablist">
+                                 <a class="nav-item nav-link active" id="nav-Freelancer-tab" data-toggle="tab" href="#nav-Freelancer" role="tab" aria-controls="nav-Freelancer" aria-selected="true">Employer </a>
+                                 <a class="nav-item nav-link" id="nav-Employer-tab" data-toggle="tab" href="#nav-Employer" role="tab" aria-controls="nav-Employer" aria-selected="false">Freelancer</a>
+                              </div>
+                           </nav>
+                        </div>
+                        <div class="tab-content">
+                           <div class="tab-pane fade show active" id="nav-Freelancer" role="tabpanel" aria-labelledby="nav-Employer-tab">
+                              <div class="row ipadfix">
+                                 <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <div class="projects">
+                                       <h5>Project Awarded</h5>
+                                       <div class="projects-recent">
+                                          <h2>2</h2>
+                                          <p>Past 30 Days</p>
+                                       </div>
+                                       <div class="projects-lifetime">
+                                          <h2>5</h2>
+                                          <p>Life time</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-12 col-md-5 col-lg-4">
+                                    <div class="works">
+                                       <h5>Work In Progress</h5>
+                                       <div class="works-recent">
+                                          <h2>$20</h2>
+                                          <p>5 Active Milestones</p>
+                                       </div>
+                                       <div class="works-lifetime">
+                                          <h2>$920</h2>
+                                          <p>6 Outstanding Projects</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-12 col-md-3 col-lg-4">
+                                    <div class="complete">
+                                       <h5>Completion Rate</h5>
+                                       <h2>100%</h2>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade" id="nav-Employer" role="tabpanel" aria-labelledby="nav-quarter-tab">
+                              <div class="row">
+                                 <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <div class="projects">
+                                       <h5>Project Posted</h5>
+                                       <div class="projects-recent">
+                                          <h2>7</h2>
+                                          <p>Past 3o Days</p>
+                                       </div>
+                                       <div class="projects-lifetime">
+                                          <h2>65</h2>
+                                          <p>Life time</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <div class="works">
+                                       <h5>Project Awarded</h5>
+                                       <div class="works-recent">
+                                          <h2>4</h2>
+                                          <p>Past 3o Days</p>
+                                       </div>
+                                       <div class="works-lifetime">
+                                          <h2>50</h2>
+                                          <p>Life time</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <div class="complete">
+                                       <h5>Award Rate</h5>
+                                       <h2>96%</h2>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End -->	
+      <!-- Income Statement Start -->
+      <section id="income-stat">
+         <div class="container">
+            <div class="income-stat">
+               <div class="row">
+                  <div class="com-sm-12 col-md-12 col-lg-12">
+                     <div class="db-table">
+                        <div class="db-info-head">
+                           <h3>Financial Position</h3>
+                           <div class="form-group">
+                              <select class="custom-select financial-select" name="name">
+                                 <option value="">One months</option>
+                                 <option value="">Six months</option>
+                                 <option value="">12 months</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="income-statement-head">
+                           <h4>Income Statement</h4>
+                           <h6>Export: <a href="#">CSV</a> <a href="#">PDF</a></h6>
+                        </div>
+                        <div class="row">
+                           <div class="col-sm-12 col-md-6 col-lg-6">
+                              <div class="db-info-details income">
+                                 <table class="table">
+                                    <thead>
+                                       <tr>
+                                          <th scope="col">Income</th>
+                                          <th scope="col">Approximation in $ USD <a href="#" data-toggle="tooltip" data-placement="right" title="This is Photoshop's version  of Lorem Ipsum."><i class="icofont icofont-question-circle"></i></a></th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>Earnings</td>
+                                          <td class="earnings">5410</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Other Income</td>
+                                          <td class="other-income">405</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Cost of Sales </td>
+                                          <td class="cost-sales">550</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Gross Profit </td>
+                                          <td class="gross-profit">27550</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                           <div class="col-sm-12 col-md-6 col-lg-6">
+                              <div class="db-info-details income">
+                                 <table class="table">
+                                    <thead>
+                                       <tr>
+                                          <th scope="col">Expenses</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>Payment </td>
+                                          <td class="payment">549</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Expenses</td>
+                                          <td class="expenses">49</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Total Expenses</td>
+                                          <td class="totalExpenses"></td>
+                                       </tr>
+                                       <tr>
+                                          <td>Operating Profit ( or Expenses )</td>
+                                          <td>0.00</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="com-sm-12 col-md-6 col-lg-6">
+                              <div class="db-info-head">
+                                 <h5>Tax Expenses</h5>
+                              </div>
+                              <div class="db-info-details">
+                                 <table class="table">
+                                    <tbody>
+                                       <tr>
+                                          <td>Total Tax Expenses </td>
+                                          <td>15,000</td>
+                                       </tr>
+                                       <tr>
+                                          <td>No Profit Expenses </td>
+                                          <td>15,200</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                           <div class="col-sm-12 col-md-6 col-lg-6">
+                              <div class="db-info-details net-position">
+                                 <table class="table">
+                                    <thead>
+                                       <tr>
+                                          <th scope="col">
+                                             <h5>Net Position</h5>
+                                          </th>
+                                          <th scope="col">
+                                             <h5>Approximation in $ USD <a href="#" data-toggle="tooltip" data-placement="right" title="This is Photoshop's version  of Lorem Ipsum."><i class="icofont icofont-question-circle"></i></a></h5>
+                                          </th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>Balance</td>
+                                          <td>0.74</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Acounts Receivable Milestones</td>
+                                          <td>91.07</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Total</td>
+                                          <td>91.81</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End -->	
+      <!-- Footer Start -->
+      <footer id="footer" class="margin-top">
+         <div class="footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">About Us</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Quick Links</h4>
+                     <ul>
+                        <li><a href="#">Success stories</a></li>
+                        <li><a href="#">Take the first Step</a></li>
+                        <li><a href="#">Get started in minutes</a></li>
+                        <li><a href="#">Featured on</a></li>
+                        <li><a href="#">Top 5 freelancers</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Support</h4>
+                     <ul>
+                        <li><a href="#">Live chat</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Support HQ</a></li>
+                        <li><a href="#">Trust & Safety</a></li>
+                        <li><a href="#">Submit a Ticket</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Get In Touch</h4>
+                     <div class="contact">
+                        <ul>
+                           <li>
+                              <i class="icofont icofont-iphone"></i>
+                              <a href="tel:+8801717722179">+880 1717 722179</a>
+                           </li>
+                           <li>
+                              <i class="icofont icofont-send-mail"></i>
+                              <a href="mailto:hq@thememom.com">hq@thememom.com</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="footer-inline">
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-skype"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-brand-linkedin"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-youtube-play"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-pinterest"></i></a></li>
+                        </ul>
+                        <ul class="applicategoriesion-store">
+                           <li><a href="#"><img src="img/store/app-store.png" alt=""></a></li>
+                           <li><a href="#"><img src="img/store/play-store.png" alt=""></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <p class="copyright">© 2018 <a href="#">Yes Market Place</a> International Limited | Developed by <a href="https://thememom.com" title="ThemeMom" target="_blank">ThemeMom</a> </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End -->
+      <script src="js/vendor/font-awesome.js"></script>
+      <script src="js/vendor/tether.min.js"></script>
+      <script src="js/vendor/popper.min.js"></script>
+      <script src="js/vendor/jquery-3.3.1.slim.min.js"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/vendor/chart.min.js"></script>
+      <script src="js/chart.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>

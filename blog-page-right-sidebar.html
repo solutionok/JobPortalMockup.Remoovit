@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta name="applicategoriesion-name" content="">
+      <meta name="description" content="">
+      <title> Blog Page Right Sidebar</title>
+      <link rel="icon" href="img/Thumbnail.png">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+      <!-- Normalize -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/normalize.css">
+      <!-- Ico Font -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/icofont/css/icofont.css">
+      <!-- Style Css -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- Responsive Css -->
+      <link rel="stylesheet" type="text/css" href="responsive.css">
+   </head>
+   <body>
+      <!-- Header Start -->
+      <header>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 col-md-6 col-lg-7 order-sm-1 order-2 primary-menu-tm">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="home.html">Home (Without Login)</a></li>
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="index.html">Dashboard</a></li>
+                                 <li><a class="dropdown-item" href="financial-dashboard.html">Financial Dashboard</a></li>
+                                 <li><a class="dropdown-item" href="chatting-page.html">Live Chat</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Hire Freelancer<span class="sr-only">(current)</span></a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown">
+                                    <a class="dropdown-item" href="post-project.html">Post a Project</a>
+                                 </li>
+                                 <li><a class="dropdown-item" href="find-freelancer.html">Find Freelancer</a></li>
+                                 <li><a class="dropdown-item" href="dispute-page.html">Dispute</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="job-search.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Find Work</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="job-search.html">Browse Projects</a></li>
+                                 <li><a class="dropdown-item" href="bidding-page.html">Project Bidding</a></li>
+                                 <li><a class="dropdown-item" href="project-awarded.html">Project Awarded</a></li>
+                                 <li><a class="dropdown-item" href="project-in-progress.html">Project In Progress</a></li>
+                                 <li><a class="dropdown-item" href="milestone-request.html">Milestone Request</a></li>
+                                 <li><a class="dropdown-item" href="freelancer-profile-portfolio.html">Freelancer Profile</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="blog-page-right-sidebar.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="blog-page-left-sidebar.html">Blog Left Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="blog-page-right-sidebar.html">Blog Right Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="single-post-left-sidebar.html">Single Post Left Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="single-post-right-sidebar.html">Single Post Right Sidebar</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                           <input class="form-control mr-sm-2" type="search" placeholder="&#xed60; &#xeb25;  Find Freelancer" aria-label="Search" data-toggle="modal" data-target="#search-freelancer">
+                        </form>
+                     </div>
+                  </nav>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-5 order-sm-2 order-1 header-notification">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <ul class="navbar-nav ml-auto ymp-right-menu">
+                        <li class="nav-item">
+                           <a href="financial-dashboard.html" class="nav-link usd">USD $350 <span>32</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon heart" href="#" data-toggle="modal" data-target="#followed"><i class="far fa-heart"></i><span>1</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon bell" href="#" data-toggle="modal" data-target="#notification"><i class="far fa-bell"></i><span>1</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon envolope" href="#" data-toggle="modal" data-target="#unread-messages"><i class="far fa-envelope"></i><span>1</span></a>
+                        </li>
+                        <li class="menu-bar dropdown dropdown-user">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <img src="img/profile-img.jpg" alt="">
+                           <span>Hi Sasha</span>
+                           </a>
+                           <ul class="dropdown-menu">
+                              <li class="nav-item dropdown"><a class="dropdown-item" href="freelancer-profile-portfolio.html">My Profile</a></li>
+                              <li><a class="dropdown-item" href="chatting-page.html">Message</a></li>
+                              <li><a class="dropdown-item" href="financial-dashboard.html">Financial Dashboard</a></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Header End -->
+      <!-- Modal Start -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="search-freelancer" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content top-freelancer">
+                     <div class="modal-body">
+                        <div class="modal-header">
+                           <p>Top 5 Freelancers</p>
+                           <a href="#">View</a>
+                        </div>
+                        <div class="form-content">
+                           <ul>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-1.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Design Rockers</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Design,</li>
+                                          <li>Photoshop,</li>
+                                          <li>Illustrator,</li>
+                                          <li>Illustration...</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>99% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-2.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Mahmudul Hasan Maruf</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Illustrator,</li>
+                                          <li>Broch...</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>100% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-3.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Sahinur Salafee</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Brochure Design.....</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>98% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-4.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>The Designers Group</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Adobe Photoshop... </li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>99% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-5.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Design Stockers</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Adobe Photoshop.....</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>100% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                           <div class="project-preview">
+                              <ul>
+                                 <li>
+                                    <h6 class="title">Projects</h6>
+                                    <p class="view"><a href="#">View</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design Project</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design</li>
+                                       <li>$20-$60 USD</li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Hire a Graphic</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$2-$10 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Logo</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$20-$40 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Professional e Commerce Website</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Web Design,</li>
+                                       <li>UI Design</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$700 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Tatto Ink</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Logo Design</li>
+                                       <li><span>$250-$400 USD</span></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                        <div class="tm-search">
+                           <a href="#">
+                              <span><i class="icofont icofont-search"></i></span>
+                              <p>Search all results for “web design”</p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->	
+      <section>
+         <div class="container">
+            <div class="row content-wrapper">
+               <div class="col-sm-12 col-md-7 col-lg-8">
+                  <div class="first-full">
+                     <div class="post-item">
+                        <div class="featured-image">
+                           <a href="#">
+                           <img src="img/blog-page/featured-image-1.jpg" alt="">
+                           </a>	
+                        </div>
+                        <h3 class="post-title"><a href="#">If you dream it, you can do</a></h3>
+                        <ul class="post-meta">
+                           <li>
+                              <h6 class="category"><a href="#">Blogging</a></h6>
+                           </li>
+                           <li>
+                              <p class="date">Octobar 29,2017</p>
+                           </li>
+                        </ul>
+                        <div class="post-entry">
+                           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum".</p>
+                           <br>
+                           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.</p>
+                           <br>
+                        </div>
+                        <div class="read-more"> <a href="#" class="button-ymp">View more</a> </div>
+                     </div>
+                  </div>
+                  <div class="list-posts small-gap">
+                     <div class="post-item">
+                        <div class="featured-image">
+                           <a href="#">
+                           <img src="img/blog-page/featured-image-2.jpg" alt="">
+                           </a>
+                        </div>
+                        <h3 class="post-title"><a href="#">Whatever you are, be a good</a></h3>
+                        <ul class="post-meta">
+                           <li>
+                              <h6 class="category"><a href="#">Blogging</a></h6>
+                           </li>
+                           <li>
+                              <p class="date">Octobar 29,2017</p>
+                           </li>
+                        </ul>
+                        <div class="post-entry">
+                           <p>Lorem Ipsum is simply dummy text of the printing andes typesetting industry. Lorem Ipsum has been the indus standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                        </div>
+                        <div class="read-more"> <a href="#" class="button-ymp">View more</a> </div>
+                     </div>
+                     <div class="post-item">
+                        <div class="featured-image">
+                           <a href="#">
+                           <img src="img/blog-page/featured-image-3.jpg" alt="">
+                           </a>
+                        </div>
+                        <h3 class="post-title"><a href="#">Men are born to succeed</a></h3>
+                        <ul class="post-meta">
+                           <li>
+                              <h6 class="category"><a href="#">Health</a></h6>
+                           </li>
+                           <li>
+                              <p class="date">Octobar 29,2017</p>
+                           </li>
+                        </ul>
+                        <div class="post-entry">
+                           <p>Lorem Ipsum is simply dummy text of the printing andes typesetting indu. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                        </div>
+                        <div class="read-more"> <a href="#" class="button-ymp">View more</a> </div>
+                     </div>
+                     <div class="post-item">
+                        <div class="featured-image">
+                           <a href="#">
+                           <img src="img/blog-page/featured-image-4.jpg" alt="">
+                           </a>
+                        </div>
+                        <h3 class="post-title"><a href="#">Turn your wounds</a></h3>
+                        <ul class="post-meta">
+                           <li>
+                              <h6 class="category"><a href="#">Medical</a></h6>
+                           </li>
+                           <li>
+                              <p class="date">Octobar 29,2017</p>
+                           </li>
+                        </ul>
+                        <div class="post-entry">
+                           <p>Lorem Ipsum is simply dummy text of the printing andes typesetting indu. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                        </div>
+                        <div class="read-more"> <a href="#" class="button-ymp">View more</a> </div>
+                     </div>
+                     <div class="post-item">
+                        <div class="featured-image">
+                           <a href="#">
+                           <img src="img/blog-page/featured-image-5.jpg" alt="">
+                           </a>
+                        </div>
+                        <h3 class="post-title"><a href="#">We become what we think</a></h3>
+                        <ul class="post-meta">
+                           <li>
+                              <h6 class="category"><a href="#">Education</a></h6>
+                           </li>
+                           <li>
+                              <p class="date">Octobar 29,2017</p>
+                           </li>
+                        </ul>
+                        <div class="post-entry">
+                           <p>Lorem Ipsum is simply dummy text of the printing andes typesetting indu. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                        </div>
+                        <div class="read-more"> <a href="#" class="button-ymp">View more</a> </div>
+                     </div>
+                     <div class="post-item">
+                        <div class="featured-image">
+                           <a href="#">
+                           <img src="img/blog-page/featured-image-6.jpg" alt="">
+                           </a>
+                        </div>
+                        <h3 class="post-title"><a href="#">Hope is the heartbeat</a></h3>
+                        <ul class="post-meta">
+                           <li>
+                              <h6 class="category"><a href="#">Travel</a></h6>
+                           </li>
+                           <li>
+                              <p class="date">Octobar 29,2017</p>
+                           </li>
+                        </ul>
+                        <div class="post-entry">
+                           <p>Lorem Ipsum is simply dummy text of the printing andes typesetting indu. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                        </div>
+                        <div class="read-more"> <a href="#" class="button-ymp">View more</a> </div>
+                     </div>
+                  </div>
+                  <div class="show-post">
+                     <p class="entry">Showing 1 to 2 of 2</p>
+                     <div class="pagination-tm">
+                        <ul class="page-number">
+                           <li><a href="#"><i class="icofont icofont-curved-double-left"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-curved-left"></i></a></li>
+                           <li><a href="#">1</a></li>
+                           <li><a href="#">2</a></li>
+                           <li><a href="#"><i class="icofont icofont-curved-right"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-curved-double-right"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-12 col-md-5 col-lg-4 ">
+                  <div class="sidebar">
+                     <div class="widget yes-about-widget">
+                        <h3 class="widget-title">About Us</h3>
+                        <div class="about-widget">
+                           <div class="about-img">
+                              <img src="img/blog-page/about-featured-image.jpg" alt="About Us">
+                           </div>
+                           <h6 class="about-sub-title">Yes Market place</h6>
+                           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                           <div class="social-icon">
+                              <a href="#"><i class="icofont icofont-social-facebook"></i></a>
+                              <a href="#"><i class="icofont icofont-social-pinterest"></i></a>
+                              <a href="#"><i class="icofont icofont-social-twitter"></i></a>
+                              <a href="#"><i class="icofont icofont-social-instagram"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="widget yes-search-widget">
+                        <div class="search-widget">
+                           <input type="text" name=" " placeholder="Search for ...">
+                        </div>
+                     </div>
+                     <div class="widget yes-tags-widget">
+                        <div class="tagcloud">
+                           <h3 class="widget-title">Tags</h3>
+                           <a href="#">Nature</a>
+                           <a href="#">Outside</a>
+                           <a href="#">Photography</a>
+                           <a href="#">Photography</a>
+                           <a href="#">Nature</a>
+                           <a href="#">Outside</a>
+                           <a href="#">Nature</a>
+                           <a href="#">Outside</a>
+                        </div>
+                     </div>
+                     <div class="widget yes-latest-post-widget">
+                        <div class="latest-post-widget">
+                           <h3 class="widget-title">Latest Post</h3>
+                           <div class="post-item">
+                              <div class="featured-image">
+                                 <a href="#">
+                                 <img src="img/blog-page/widget-featured-image-1.jpg" alt="">
+                                 </a>
+                              </div>
+                              <h6 class="post-title"><a href="#">To be the best, you must be able to handle the.</a></h6>
+                              <ul class="post-meta">
+                                 <li>
+                                    <p class="category"><a href="#">Health</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="date">November 19,2017</p>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="post-item">
+                              <div class="featured-image">
+                                 <a href="#">
+                                 <img src="img/blog-page/widget-featured-image-2.jpg" alt="">
+                                 </a>
+                              </div>
+                              <h6 class="post-title"><a href="#">It does not matter how slowly you go.</a></h6>
+                              <ul class="post-meta">
+                                 <li>
+                                    <p class="category"><a href="#">Beauty</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="date">Octobar 29,2017</p>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="post-item">
+                              <div class="featured-image">
+                                 <a href="#">
+                                 <img src="img/blog-page/widget-featured-image-3.jpg" alt="">
+                                 </a>
+                              </div>
+                              <h6 class="post-title"><a href="#">Ever tried. Ever failed.No matter.</a></h6>
+                              <ul class="post-meta">
+                                 <li>
+                                    <p class="category"><a href="#">Education</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="date">Octobar 26,2017</p>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="post-item">
+                              <div class="featured-image">
+                                 <a href="#">
+                                 <img src="img/blog-page/widget-featured-image-4.jpg" alt="">
+                                 </a>
+                              </div>
+                              <h6 class="post-title"><a href="#">Do what you can, with what you have.</a></h6>
+                              <ul class="post-meta">
+                                 <li>
+                                    <p class="category"><a href="#">Medical</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="date">Octobar 21,2017</p>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="post-item">
+                              <div class="featured-image">
+                                 <a href="#">
+                                 <img src="img/blog-page/widget-featured-image-5.jpg" alt="">
+                                 </a>
+                              </div>
+                              <h6 class="post-title"><a href="#">Whatever you are, be a good one.</a></h6>
+                              <ul class="post-meta">
+                                 <li>
+                                    <p class="category"><a href="#">Travel</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="date">Octobar 13,2017</p>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="widget yes-category-widget">
+                        <div class="category-widget">
+                           <h3 class="widget-title">Category</h3>
+                           <ul class="categories">
+                              <li><a href="#">Beauty<span>9</span></a></li>
+                              <li><a href="#">Health<span>8</span></a></li>
+                              <li><a href="#">Medical<span>5</span></a></li>
+                              <li><a href="#">Education<span>3</span></a></li>
+                              <li><a href="#">Sports<span>1</span></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer Start -->
+      <footer id="footer" class="margin-top">
+         <div class="footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">About Us</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Quick Links</h4>
+                     <ul>
+                        <li><a href="#">Success stories</a></li>
+                        <li><a href="#">Take the first Step</a></li>
+                        <li><a href="#">Get started in minutes</a></li>
+                        <li><a href="#">Featured on</a></li>
+                        <li><a href="#">Top 5 freelancers</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Support</h4>
+                     <ul>
+                        <li><a href="#">Live chat</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Support HQ</a></li>
+                        <li><a href="#">Trust & Safety</a></li>
+                        <li><a href="#">Submit a Ticket</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Get In Touch</h4>
+                     <div class="contact">
+                        <ul>
+                           <li>
+                              <i class="icofont icofont-iphone"></i>
+                              <a href="tel:+8801717722179">+880 1717 722179</a>
+                           </li>
+                           <li>
+                              <i class="icofont icofont-send-mail"></i>
+                              <a href="mailto:hq@thememom.com">hq@thememom.com</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="footer-inline">
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-skype"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-brand-linkedin"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-youtube-play"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-pinterest"></i></a></li>
+                        </ul>
+                        <ul class="applicategoriesion-store">
+                           <li><a href="#"><img src="img/store/app-store.png" alt=""></a></li>
+                           <li><a href="#"><img src="img/store/play-store.png" alt=""></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <p class="copyright">© 2018 <a href="#">Yes Market Place</a> International Limited | Developed by <a href="https://thememom.com" title="ThemeMom" target="_blank">ThemeMom</a> </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End -->
+      <script src="js/vendor/font-awesome.js"></script>
+      <script src="js/vendor/tether.min.js"></script>
+      <script src="js/vendor/popper.min.js"></script>
+      <script src="js/vendor/jquery-3.3.1.slim.min.js"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>

@@ -1,0 +1,1611 @@
+/*====================================*/
+/*********** Responsive **************/
+/************* Ipad Pro *************/
+/*=================================*/
+
+@media (max-width: 1024px) {
+  /*********** Navbar *************/
+  .navbar {
+    padding: 0px 0px 0px 12px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+  }
+  .navbar .form-inline {
+    margin-left: 0px;
+  }
+  .primary-menu-tm .navbar-nav li>a.nav-link {
+    padding: 27px 13px;
+  }
+  .primary-menu-tm input{
+      max-width:110px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+  .ymp-right {
+    padding: 3.5px 0px;
+  }
+  .dropdown-item {
+    font-size: 12px;
+  }
+  .header-notification .navbar {
+    padding: 0px 5px;
+  }
+  .header-notification .ml-auto {
+    margin-left: auto;
+  }
+  .header-notification .ymp-right-menu>li>a.nav-link {
+    padding: 21.5px 0px;
+  }
+  .ymp-right-menu .dropdown-user>.dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  .ymp-right-menu li.dropdown-user span {
+    display: none;
+  }
+  .navbar-light .navbar-nav .dropdown:hover .profile {
+    display: inline-block;
+    right: 5px;
+    z-index: 100;
+    top: 68px;
+  }
+  .navbar-light .navbar-nav .nav-item .envolope {
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+  .navbar-light .navbar-nav .nav-item .heart {
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+  .navbar-light .navbar-nav .nav-item .bell {
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+  .navbar-light .navbar-nav .nav-item .usd {
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+  /*********** Navbar Ends *************/
+  .single-post-content .half-width input[type="text"] {
+    width: 100%;
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .single-post-content .half-width input[type="email"] {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #1fb5ad;
+    border-radius: 5px;
+    padding-left: 15px;
+  }
+  .custom-file-upload {
+    right: 23px;
+  }
+  .footer-top .contact {
+    overflow: hidden;
+  }
+  .freelancer-portfolio {
+    top: 137px;
+  }
+  .experience .type {
+    padding: 10px 6px;
+  }
+  .freelancer-details {
+    padding-left: 130px;
+  }
+  .search-category .dropdown-toggle:after {
+    margin-left: 35%;
+  }
+  .job-types ul li {
+    margin-right: 105px;
+  }
+  .employee-info .social-icon ul li {
+    padding-bottom: 10px;
+  }
+  /**** Dashboard ****/
+  .overview-stat {
+    min-height: 175px;
+  }
+  .stat .description {
+    border: 0px;
+    float: left;
+    padding-left: 118px;
+    margin-top: 7px;
+  }
+  .stat-icon {
+    position: relative;
+    top: 28px;
+  }
+  .button-ymp.active {
+    padding: 6px 20px;
+  }
+  .profile-overview .button-ymp.simple {
+    padding: 7px 15px;
+  }
+  .profile-overview .details h5 {
+    padding-bottom: 105px;
+  }
+  .affiliate {
+    padding: 15px 5px 15px 10px;
+  }
+  .net-position {
+    padding-top: 2px;
+  }
+  /**** Milestone Dashboard ****/
+  .award-details {
+    padding-bottom: 30px;
+  }
+  .project-bid .title {
+    padding-bottom: 5px;
+  }
+  .request-milestone form input[type="text"] {
+    width: 66.5%;
+  }
+  .reputation {
+    width: 112%;
+  }
+  .bid-info {
+    width: 112%;
+  }
+  .chatting-page .menu ul li {
+    padding-right: 35px;
+  }
+  /********** Post Project Page ***********/
+  .submit-info ul li {
+    width: 100%;
+  }
+  .submit-info ul li:nth-child(1) {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .sub-cat.dropdown-toggle:after {
+    margin-left: 85%;
+  }
+  .pick-cat.dropdown-toggle:after {
+    margin-left: 91%;
+  }
+  .fixed-price-btn.dropdown-toggle:after {
+    margin-left: 45%;
+  }
+  .currency-btn.dropdown-toggle:after {
+    margin-left: 35%;
+  }
+  .budget-btn.dropdown-toggle:after {
+    margin-left: 43%;
+  }
+  .file-upload__label {
+    float: left;
+  }
+  /********** Chatting Page *************/
+  .chat-body {
+    display: block;
+    margin: 10px 0px 18px 0;
+    overflow: hidden;
+  }
+  /********** Freelancer Portfolio Page ***********/
+  .brand-btn {
+    padding: 10px 25px;
+  }
+  .watch-btn {
+    padding: 10px 14px;
+  }
+  #slider {
+    width: 222px;
+    margin-left: 0px;
+}
+  /********** Modal Css ***********/
+  .top-freelancer {
+    right: 34px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  li.dropdown:hover .dropdown-menu {
+    display: block;
+    padding: 0px;
+  }
+  .navbar-light .navbar-nav .dropdown:hover .profile {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .navbar .form-inline {
+    margin-left: 25px;
+  }
+}
+
+/*====================================*/
+/************* Ipad  ****************/
+/*=================================*/
+
+@media (max-width: 768px) {
+/**************** Defualt ****************/
+  body{
+    font-size: 14px;
+  }
+  h1{
+    font-size: 2.1em;
+  }
+  h2{
+    font-size: 2em;
+  }
+  /**************** Navbar ****************/
+  .ipad-padding{
+      margin-bottom:100px;
+  }
+  .ipadfix{
+      padding:  0px 15px;
+  }
+  .navbar {
+    padding: 15px 40px;
+  }
+  .primary-menu-tm .navbar-nav li>a.nav-link {
+    padding: 2px 10px;
+  }
+    .primary-menu-tm input{
+      max-width:200px;
+  }
+  .navbar-light .navbar-brand {
+    display: none;
+  }
+  .header-notification .ymp-right li {
+    padding: 1px 0px;
+  }
+  .header-notification .ymp-right .nav-link {
+    padding: 17px 0px;
+  }
+  .header-notification .ymp-right .menu-button {
+    position: relative;
+    right: 25px;
+  }
+  .header-notification .ymp-right {
+    position: relative;
+    right: 40px;
+  }
+  .header-notification .ymp-right li:last-child {
+    position: relative;
+    left: 20px;
+  }
+  .header-notification .navbar {
+    padding: 0px;
+  }
+  .header-notification .ml-auto {
+    margin-left: 0px!important;
+  }
+  .header-notification .navbar-nav {
+    display: -webkit-inline-box;
+  }
+  .header-notification .ymp-right-menu>li>a.nav-link {
+    padding: 16px 11px;
+  }
+  .ymp-right-menu .dropdown-user>.dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  .ymp-right-menu .nav-item{
+      padding-top:7px;
+  }
+  .ymp-right li {
+    padding: 3px 16px;
+  }
+  .ymp-right-menu li.dropdown-user span {
+    display: none;
+  }
+  .navbar .navbar-nav>li .dropdown-menu li {
+    border-bottom: 0px solid #e6eaee;
+    border-left: 0px solid #e6eaee;
+    border-right: 0px solid #e6eaee;
+  }
+  .navbar .navbar-nav>li .dropdown-menu li:last-child {
+    border-bottom: 0px solid #e6eaee;
+  }
+  .dropdown-item {
+    padding: 5px 15px;
+  }
+  .dropdown-menu {
+    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, .1);
+    border: 0px;
+  }
+  .dropdown-user {
+    padding-left: 0px;
+  }
+  .navbar-light .navbar-nav .dropdown:hover .profile {
+    position: absolute;
+    display: inline-block;
+    right: 5px;
+    top: 65px;
+    z-index: 100;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+  .menu-bar {
+    border-left: none;
+  }
+  .menu-button a {
+    margin-right: 0px;
+  }
+  .navbar-light .navbar-nav .nav-item .envolope {
+    margin-right: 0px;
+  }
+  .navbar-light .navbar-nav .nav-item .heart {
+    margin-right: 0px;
+  }
+  .navbar-light .navbar-nav .nav-item .bell {
+    margin-right: 0px;
+  }
+  .navbar-light .navbar-nav .nav-item .usd {
+    margin-right: 0px;
+  }
+  .navbar .form-inline {
+    margin-left: 0;
+  }
+  .list-posts .featured-image {
+    width: 100%;
+    margin-bottom: 25px;
+}
+  /**************** Navbar Ends ****************/
+
+  /**************** Financial Dashboard ****************/
+  .net-position {
+    padding-top: 2px;
+  }
+  /**************** Blog Single Page ****************/
+  .single-post-content .half-width input[type="text"] {
+    width: 100%;
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .single-post-content .half-width input[type="email"] {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #1fb5ad;
+    border-radius: 5px;
+    padding-left: 15px;
+  }
+  .custom-file-upload {
+    right: 17px;
+  }
+  .bidding-title {
+    padding: 30px 30px;
+  }
+  .footer-top .contact i {
+    padding-right: 0px;
+  }
+  .chatting-page .menu ul li {
+    padding-right: 13px;
+  }
+  .chat-freelancers {
+    padding: 0px 0px;
+  }
+  .chat-panel {
+    padding: 0px 0px;
+  }
+  .footer-top .contact {
+    overflow: hidden;
+  }
+  .freelancer-portfolio {
+    position: relative;
+    top: 90px;
+    margin-bottom : 50px;
+  }
+  .top-skills ul li {
+    padding: 5px 7px;
+  }
+  .search-category .dropdown-toggle:after {
+    margin-left: 0%;
+  }
+  .job-types ul li {
+    margin-right: 40px;
+  }
+  .employee-info .social-icon ul li {
+    padding-bottom: 10px;
+  }
+  /************ Index Page ************/
+  .overview-stat {
+    min-height: 170px;
+  }
+  .stat-icon i{
+      border:0px;
+      padding: 20px 0px;
+  }
+  .stat .description {
+    border: none;
+    float: left;
+    padding-left: 68px
+  }
+  .stat-icon {
+    position: relative;
+    top: 28px;
+  }
+  .details {
+    padding: 0px;
+  }
+  .details-btn {}
+  .earning-payments .nav-link {
+    margin-right: 10px;
+  }
+  .affiliate p {
+    position: relative;
+    top: 0px;
+    left: 200px;
+    padding: 0px 0 7px 0;
+  }
+  .affiliate .affiliate-link p {
+    padding-right: 0px;
+    left: 0px;
+  }
+  .affiliate .affiliate-link {
+    position: relative;
+    top: 5px;
+    width:100%;
+  }
+  .affiliate .affiliate-link button{
+      float:right;
+  }
+  /********** Milestone Page *************/
+  .request-milestone form input[type="text"] {
+    width: 64%;
+  }
+  .project-bid .title {
+    padding-bottom: 5px;
+  }
+  .freelancer-bidding {
+    float: left;
+    padding-right: 5px;
+  }
+  .avg-bidding {
+    float: left;
+    padding: 0px 5px 0px 5px;
+  }
+  .open-button h3 {
+    color: #1fb5ad;
+  }
+  .bid-info {
+    width: 130%;
+  }
+  .budget {
+    position: relative;
+    left: 5px;
+  }
+  /********** Freelancer Portfolio Page ***********/
+  .brand-btn {
+    padding: 10px 25px;
+    font-size: 1em;
+  }
+  .watch-btn {
+    padding: 10px 14px;
+    font-size: 1.2em;
+  }
+  #slider {
+    width: 148px;
+    margin-left: 0px;
+  }
+  .show-post p {
+    float: right;
+    padding-bottom: 8px;
+  }
+  /********** Post Project Page ***********/
+  .submit-info ul li {
+    width: 100%;
+  }
+  .submit-info ul li:nth-child(1) {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .file-upload-btn p {
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .file-upload {
+    padding: 30px 0px 0px 15px;
+  }
+  .fixed-price-btn.dropdown-toggle:after {
+    margin-left: 18%;
+  }
+  .currency-btn.dropdown-toggle:after {
+    margin-left: 0%;
+  }
+  .budget-btn.dropdown-toggle:after {
+    margin-left: 20%;
+  }
+  .sub-cat.dropdown-toggle:after {
+    margin-left: 80%;
+  }
+  .pick-cat.dropdown-toggle:after {
+    margin-left: 89%;
+  }
+  .experience-level .entry .header a {
+    padding: 0px;
+  }
+  .experience-level .intermediate .header a {
+    padding: 0px;
+  }
+  .experience-level .expert .header a {
+    padding: 0px;
+  }
+  /************ Chatting Page ************/
+  .chat-body {
+    display: block;
+    margin: 10px 0px 18px 0;
+    overflow: hidden;
+  }
+  /************ Home Page ************/
+  .ipad-img {
+    width: 100%;
+  }
+  .first-step i {
+    border: none;
+  }
+  .success-wrapper {
+    padding: 30px 30px 10px 30px;
+  }
+  .success-wrapper .button-ymp {
+    text-transform: capitalize;
+    padding: 15px 35px;
+  }
+  .success-wrapper .button-ymp.active {
+    float: none;
+    bottom: 0;
+    text-transform: capitalize;
+  }
+  .get-started {
+    background: none;
+  }
+  .get-started .button-ymp.active {
+    bottom: 0px;
+    float: none;
+  }
+  #first-step {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  /************ Modal Css ************/
+  .top-freelancer {
+    right: 44px;
+  }
+}
+
+
+
+/*====================================*/
+/************* Mobile  ***************/
+/*==================================*/
+@media (max-width:576px) {
+  /**************** Defualt ****************/
+  h1{
+        font-size:1.5em
+    }
+  h2{
+        font-size:1.4em
+    }
+  h3{
+        font-size:1.3em
+    }
+  h5{
+        font-size:1em
+    }
+  /**************** Navbar ****************/
+  header {
+    position: relative;
+  }
+  .primary-menu-tm .navbar-nav li>a.nav-link {
+    padding: 2px 10px;
+  }
+  .header-notification .navbar-nav {
+    display: -webkit-inline-box;
+  }
+  .header-notification .ml-auto {
+    margin-left: 0px!important;
+  }
+  .header-notification .ymp-right-menu>li>a.nav-link {
+    padding: 9px 0;
+  }
+  .header-notification .ymp-right li {
+    padding: 0px;
+  }
+  .header-notification .ymp-right {
+    position: absolute;
+  }
+  .header-notification .ymp-right .menu-button {
+    position: relative;
+    top: 0px;
+    right: 15px;
+  }
+  .header-notification .ymp-right {
+    right: 20px;
+  }
+  .header-notification .ymp-right li:last-child {
+    position: relative;
+    left: 10px;
+  }
+  .navbar .navbar-nav>li .dropdown-menu li {
+    border-bottom: 0px solid #e6eaee;
+    border-left: 0px solid #e6eaee;
+    border-right: 0px solid #e6eaee;
+  }
+  .navbar .navbar-nav>li .dropdown-menu li:last-child {
+    border-bottom: 0px solid #e6eaee;
+  }
+  .dropdown-item {
+    padding: 5px 15px;
+  }
+  .profile-overview .details h5 {
+    padding-bottom: 59px;
+  }
+  .ymp-right {
+    position: absolute;
+    right: 18px;
+    top: 0px;
+  }
+  .ymp-right li {
+    display: inline-block;
+    padding: 0 5px;
+  }
+  .ymp-right li:last-child {
+    padding: 0px;
+  }
+  .navbar {
+    padding: 10px 15px;
+  }
+  .navbar .navbar-nav>li:hover .dropdown-menu {
+    padding: 0;
+  }
+  .navbar .form-inline {
+    margin-left: 0px;
+  }
+  .ymp-right-menu .menu-button a,
+  .menu-button a {
+    margin-right: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-bar {
+    border-left: none;
+    padding-left: 0px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+  .ymp-right-menu li a.usd {
+    margin-right: 10px;
+  }
+  .navbar-light .navbar-nav .nav-item .heart {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .navbar-light .navbar-nav .nav-item .bell {
+    margin-right: 0px;
+  }
+  .navbar-light .navbar-nav .nav-item .envolope {
+    margin-right: 0px;
+  }
+  .ymp-right-menu li {
+    display: inline-block;
+  }
+  .ymp-right-menu li .nav-link {
+    display: inline-block;
+  }
+  .ymp-right-menu li:last-child {}
+  .ymp-right-menu li.dropdown-user span {
+    display: none;
+  }
+  .ymp-right-menu li.dropdown-user img {
+    width: 30px;
+    position: relative;
+    top: -5px;
+  }
+  .ymp-right-menu .dropdown-user>.dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  .dropdown-user .dropdown-toggle:after {
+    margin-left: 0px;
+  }
+  .navbar-light .navbar-brand {
+    display: none;
+  }
+  .ymp-right-menu {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  .order-1 .navbar {
+    padding: 0px 15px;
+  }
+  .ymp-right-menu .usd {
+    margin-right: 10px;
+    position: relative;
+    top: -3px;
+  }
+  .menu-button a {
+    padding: 4px 22px!important;
+  }
+  /**************** Navbar Ends ****************/
+  /**************** Typography Page Css ****************/
+  #content-wrapper {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  /**************** Blog layouts ****************/
+  .content-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .first-full .post-item .featured-image {
+    float: none;
+    margin-right: 0px!important;
+    margin-bottom: 30px;
+  }
+  .list-posts .post-item .featured-image {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .single-post-content .half-width input[type="text"] {
+    width: 100%;
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .single-post-content .half-width input[type="email"] {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #1fb5ad;
+    border-radius: 5px;
+    padding-left: 15px;
+  }
+  .sidebar {
+    padding-top: 80px;
+  }
+  .content-wrapper .pagination {
+    float: left;
+    position: relative;
+    bottom: 0px;
+    top: 32px;
+    left: 78px;
+  }
+  .content-wrapper .entry {
+    text-align: center;
+  }
+  .db-table .nav-tabs {
+    position: relative;
+    right: 0px;
+  }
+  .custom-file-upload {
+    right: 8px;
+  }
+  .bid-info {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+  .freelancer-bidding {
+    float: none;
+    border-right: none;
+    padding-right: 0px;
+    padding-top: 10px;
+  }
+  .avg-bidding {
+    float: none;
+    border-right: none;
+    padding: 20px 0px;
+  }
+  .budget {
+    float: none;
+    left: 0;
+    padding-bottom: 20px;
+  }
+  #bidding-page {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+  .bidding-page {
+    margin-bottom: 60px;
+  }
+  .bidding-details {
+    background: #f8f9fc;
+    padding: 30px 30px;
+    text-align: center;
+  }
+  .proposal-right {
+    padding: 0px 8px 15px 0px;
+  }
+  .info {
+    padding-top: 21px;
+  }
+  .award-info ul li {
+    display: block;
+  }
+  .project-review {
+    padding-left: 0px;
+  }
+  .proposal-right input[type="submit"] {
+    margin-top: 30px;
+  }
+  /*************** Home Page ***************/
+  #how-it-works {
+    padding-top: 50px;
+  }
+  .how-it-works .title {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  #first-step {
+    padding-top: 30px;
+  }
+  .first-step .title {
+    padding-bottom: 30px;
+  }
+  .first-step .round {
+    margin-bottom: 20px;
+  }
+  .step {
+    padding-bottom: 30px;
+  }
+  #top-five {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .success-wrapper {
+    padding: 30px 30px 30px 30px;
+  }
+  #success-stories {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .get-started {
+    background-image: none;
+  }
+  .get-started-wrapper .mobile-padding {
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+  .first-step i {
+    border-radius: 50%;
+    border: 1px solid #1fb5ad;
+  }
+  .button-ymp-wrapper {
+    padding: 0px 75px 0px 0px;
+  }
+  .success-wrapper .button-ymp.active {
+    margin-right: 0px;
+    text-transform: capitalize;
+    float: none;
+  }
+  .featured .mobile-padding {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  #featured {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .subscribe [type="email"] {
+    width: 100%!important;
+    margin-left: 0px;
+    margin-right : 0px;
+  }
+  .subscribe [type="submit"] {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .get-started .button-ymp.active {
+    float: right;
+  }
+  .first-step-text {
+    font-size: 16px;
+  }
+ .affiliate .affiliate-link button{
+   float:none;
+ }
+ .mob-padding{
+    padding-bottom:100px;
+ }
+ .db-info-head h6 {
+    text-align: center;
+ }
+ #job-in-progress h4 {
+    float : none;
+    text-align: center;
+ }
+ .db-info-head h3 {
+    width: 100%;
+ }
+ .recent-jobs h4 {
+    float: none;
+    text-align: center;
+ }
+ .milestone h4 {
+    float: none;
+    text-align: center;
+ }
+ .chart-info h4 {
+    text-align: center;
+ }
+  /*************** Modal Css ***************/
+  .btn-ymp {
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .btn-ymp ul li {
+    margin-left: 0px;
+    float: none;
+  }
+  .btn-ymp ul li:nth-child(1) {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+  .or {
+    display: none;
+  }
+  .modal-header .logo {
+    text-align: center;
+    padding: 14px 0px 14px 74px;
+  }
+  .hire {
+    top: 50vh;
+    -webkit-transform: translateY(-48vh);
+    transform: translateY(-48vh);
+    position: relative;
+    left: 19px;
+  }
+  .hire-btn .btn-secondary {
+    height: 50px;
+    font-size: 18px;
+  }
+  .hire-btn .dropdown-toggle:after {
+    margin-left: 15px;
+  }
+  .top-freelancer {
+    width: 100%;
+    right: 5px;
+  }
+  .radio-btn ul li:nth-child(1) {
+    padding-left: 44px;
+    padding-right: 50px;
+  }
+  .sign-in {
+    -webkit-transform: translateY(-44vh);
+    transform: translateY(-44vh);
+    right: 5px;
+  }
+  .sign-up {
+    right: 5px;
+  }
+  .freelancer-tm .review li:nth-child(7) {
+    padding-left: 0!important;
+  }
+  .freelancer-tm .review li:nth-child(8) {
+    padding-left: 0!important;
+  }
+  .project-preview ul.cat span {
+    float: left;
+  }
+  .freelancers-info a.button-ymp {
+    padding: 2px 8px;
+    top: 80px;
+    left: 0px;
+    right: auto;
+  }
+  #unread-messages .unread-messages {
+    width: 90%;
+    top: 50vh;
+    -webkit-transform: translateY(-43vh) translateX(2vh);
+    transform: translateY(-43vh) translateX(2vh);
+  }
+  #unread-messages .chat-freelancers {
+    padding: 0px;
+  }
+  #unread-messages .chatting-page {
+    margin-bottom: 0px;
+  }
+  #notification .unread-messages {
+    width: 100%;
+    top: 50vh;
+    -webkit-transform: translateY(-43vh) translateX(0vh);
+    transform: translateY(-43vh) translateX(0vh);
+  }
+  #notification .chat-freelancers {
+    padding: 0px;
+  }
+  #notification .chatting-page {
+    margin-bottom: 0px;
+  }
+  /*************** Chatting Page ***************/
+  #chatting-page {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+  .chatting-page .menu ul li {
+    padding-right: 50px;
+  }
+  .chat-freelancers {
+    padding: 60px 30px 30px 30px;
+  }
+  .chat-panel {
+    padding: 0px 0px;
+  }
+  .chatting-page {
+    border: 1px solid #e6eaee;
+    border-radius: 5px;
+    padding: 30px 5px;
+    margin-bottom: 60px;
+  }
+  .chat-content {
+    margin: 0px 10px 10px 0px;
+  }
+  .chat-left .chat-content {
+    margin: 0 0 10px 10px;
+  }
+  .chat-body {
+    margin: 10px 2px 18px 0px;
+  }
+  .chat-header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  /*************** Freelancer Profile Page ***************/
+  .profile-info {
+    padding: 0px 30px;
+  }
+  .freelancer-info {
+    padding: 60px 30px;
+  }
+  .freelancer-profile-sidebar img {
+    left: 0px;
+    display: block;
+    margin: 0 auto;
+  }
+  #freelancer-portfolio {
+    background-size: inherit;
+    background-position: top center;
+  }
+  .freelancer-portfolio {
+    position: relative;
+    top: 225px;
+    margin-bottom: 185px;
+  }
+  .portfolio-menu .button-group button {
+    padding-top: 10px;
+  }
+  .portfolio-menu h3 {
+    padding-bottom: 15px;
+  }
+  .portfolio-menu .button-group .form-control {
+    width: 22%;
+   padding-top: 0px;
+    padding-bottom: 5px;
+    }
+    ul.client-rating {
+    margin-bottom: 31px;
+  }
+  .portfolio-pagination {
+    text-align: center;
+  }
+  .portfolio-pagination p{
+    padding-bottom: 10px;
+    float: none;
+  }
+  .portfolio-pagination .show-post {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .show-post p {
+    text-align: center;
+    float: none;
+    padding-bottom: 13px;
+  }
+  .profile-pagination {
+    float: none;
+    display: inline-block;
+  }
+  .recent-reviews {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 23px;
+  }
+  .recent-reviews h3 {
+    float: none;
+  }
+  .recent-reviews p {
+    float: none;
+  }
+  .project-review .client-rating li:last-child {
+    padding-left: 0px;
+  }
+  .freelancer-detail .online {
+    bottom: 4px;
+  }
+  #portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .portfolio-menu h3 {
+    float: none;
+  }
+  .portfolio-menu {
+    text-align: center;
+  }
+  .budget-amount .input-group {
+    width: 100%;
+  }
+  .budget-amount .custom-select {
+    width: 100%;
+  }
+  .budget-amount li {
+    display: inline-block;
+    padding-bottom: 23px;
+    width: 100%;
+  }
+  #slider {
+    width: 250px;
+    margin-left: 12px;
+  }
+  .brand-btn {
+    padding: 10px 25px;
+    font-size: 1em;
+  }
+  .watch-btn {
+    padding: 10px 14px;
+    font-size: 1.3em;
+  }
+  /*************** Financial Dashboard Page ***************/
+  .income-stat .db-table .btn-secondary {
+    margin-right: 10px;
+  }
+  #income-stat {
+    padding-bottom: 60px;
+  }
+  #manage-transection {
+    padding-top: 60px;
+  }
+  .income-stat .custom-select {
+    margin-bottom: 10px;
+    padding: 0px 30px;
+    height: 30px;
+    font-size: 1em;
+  }
+  .manage-transection .db-info-head h3{
+      float : none;
+      text-align : center;
+  }
+  .db-table .nav-tabs .nav-link {
+    padding: 0px 10px;
+    margin-right: 0px;
+    font-size: 1em;
+  }
+  .income-stat .db-info-head h3 {
+    text-align: center;
+  }
+  .financial-select{
+      margin-right : 0px;
+  }
+  .income-stat .form-group{
+      text-align : center;
+  }
+  /*************** Project In Progress Page ***************/
+  #project-in-progress-page {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  /*************** Job Search Page ***************/
+  .padding-top {
+    padding-top: 10px;
+  }
+  .margin-bottom {
+    margin-bottom: 0px;
+    padding-left: 44px;
+  }
+  #search-job {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .job-types ul li {
+    margin-right: 30px;
+  }
+  .job-types-table .pagination {
+    right: 55px;
+    position: relative;
+    margin-right: 0px;
+  }
+  .works {
+    border-left: none;
+    border-right: none;
+  }
+  .projects, .works, .complete {
+    padding-bottom: 23px;
+    border-bottom: 1px solid #e6eaee;
+  }
+  .complete{
+      border-bottom : none;
+  }
+  .projects h5, .works h5, .complete h5 {
+    padding-top: 25px;
+    padding-bottom: 22px;
+  }
+  .job-types-table table tbody tr td i{
+    display: none;
+  }
+  .job-types-table table tbody tr td .book-mark-icon i{
+     display: block;
+  }
+  .job-types-table table tbody tr td .description {
+    padding-left: 30px;
+  }
+  .project-contest{
+    min-width: 200px;
+    padding-left: 30px!important;
+  }
+  .freelancer-details {
+    padding-left: 00px;
+  }
+    .review{
+        padding: 10px 0px;
+    }
+    .job-search-head p {
+    padding-top: 20px;
+}
+  /*************** Search By Type Page ***************/
+  #search-by-types {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .search-freelancer .freelancer-details h6:after {
+    padding-left: 5px;
+  }
+  .search-freelancer table td {
+    display: block;
+  }
+  .search-freelancer .table .buttons li {
+    padding: 5px 4px;
+    display: inline-block;
+  }
+  .search-freelancer .table .buttons li:last-child {
+    position: relative;
+    bottom: 15px;
+  }
+  .search-freelancer .buttons {
+    text-align: center;
+  }
+  .pagination-tm {
+    margin-right: 0px;
+    float: none;
+  }
+  .posts p {
+    float: none;
+    padding-bottom: 8px;
+    padding-left: 0px;
+  }
+  .search-job-sidebar {
+    margin-bottom : 60px;
+  }
+  .search-category .dropdown-toggle:after {
+    margin-left: 45%;
+  }
+  /*************** Index Page ***************/
+  .overview-stat {
+    min-height: 148px;
+  }
+  .stat .description {
+    border-left: 0px;
+    float:left;
+    padding-left:68px;
+  }
+  .stat-icon {
+    top: 20px;
+    margin-right: 35px;
+  }
+  .nav-tabs a {
+    text-align: center;
+  }
+  .stat .description p {
+    max-width: 178px;
+  }
+  .details {
+    padding: 40px 0px;
+  }
+  .profile-overview .button-ymp.simple {
+    float: left;
+    padding: 5px 20px;
+    position: relative;
+    right: 0;
+  }
+  .profile-overview .button-ymp.active {
+    float: left;
+    padding: 6px 20px;
+    position: relative;
+    top: 0;
+  }
+  .affiliate p {
+    left: 28px;
+  }
+  .affiliate .affiliate-link p {
+    padding-right: 0px;
+    padding-bottom: 10px;
+  }
+  .affiliate .affiliate-link button {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+  }
+  .affiliate .affiliate-link {
+    right: 3px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+  }
+  .invite .button-ymp {
+    display: block;
+    text-align: center;
+  }
+  .banner .button-ymp {
+    padding: 15px 20px;
+  }
+  .banner-image {
+    position: relative;
+    top: 40px;
+  }
+  .banner-bg {
+    text-align: center;
+  }
+  .mobile-padding {
+    padding-top: 100px;
+  }
+  .overview {
+    padding-top: 60px;
+  }
+  .profile-overview {
+    margin-top: 100px;
+  }
+  #invite-people {
+    padding-bottom: 60px;
+  }
+  .earning-payments .nav-link {
+    padding: 0px 10px;
+    margin-right: 0px;
+    font-size: 10px;
+}
+  /*************** Financial Dashboard ***************/
+  .income-stat .income-statement-head h6 {
+    float: none;
+    text-align : center;
+  }
+  .income-stat .income-statement-head h4 {
+    float: none;
+    text-align: center;
+  }
+  /*************** Bidding Page ***************/
+  button.close {
+        margin-right: -10px;
+        margin-top : -3px;
+    }
+    .proposal-breakdown {
+      padding-top: 60px;
+    }
+    .proposal-breakdown {
+      padding-top: 58px;
+    }
+  /*************** Milestone Page ***************/
+  .request-milestone form input[type="number"] {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .request-milestone form input[type="text"] {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 0px;
+  }
+  .request-milestone form .form-buttons input {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .request-milestone form .form-buttons .cancel {
+    margin-left: 0px;
+    display: block;
+    text-align: center;
+    padding: 2px 0;
+  }
+  .verify-btn {
+    float: left;
+    margin-bottom: 0px;
+    position: relative;
+    left: 3px;
+    display: block;
+    clear: both;
+    padding-top: 10px;
+  }
+  .project-bid {
+    padding: 15px 30px;
+  }
+  .award-details {
+    padding-bottom: 0px;
+  }
+  .employee-info {
+    padding-left: 30px;
+    padding-bottom: 21px;
+  }
+  .project-bid a {
+    padding-right: 30px;
+  }
+  .project-description {
+    padding: 30px 15px 0px 15px;
+  }
+  .employee-info img {
+    float: left;
+    margin-right: 30px;
+  }
+  .employee-info .review {
+    position: relative;
+    bottom: 20px;
+  }
+  .employee-info .review ul{
+    margin-bottom: 12px;
+  }
+  .employee-info .social-icon ul{
+    margin-bottom: 7px;
+  }
+  .employee-info .follow-btn {
+    position: relative;
+    bottom: 17px;
+    padding-bottom: 20px;
+  }
+  .award-details img {
+    position: relative;
+    bottom: 17px;
+  }
+  .employee-info .project-id {
+    padding-top: 0px;
+    position: relative;
+    bottom: 15px;
+  }
+  .employee-info .social-icon {
+    position: relative;
+    bottom: 15px;
+  }
+  .mobile-float-1 {
+    float: left;
+    width: 55%;
+    padding: 20px 0px 0 45px;
+  }
+  .mobile-float-1 .reputation {
+    padding-left: 0px;
+  }
+  .mobile-float-2 {
+    width: 40%;
+    padding: 20px 0px 0px 0px;
+    position: relative;
+    left: 20px;
+  }
+  .mobile-float-2 .project-bid {
+    padding: 0;
+  }
+  .input-fields .input-group {
+    width: 100%;
+    float: left;
+  }
+  .input-fields .input-group-addon:not(:last-child) {
+    border-right: 0;
+    height: 38px;
+  }
+  .request-milestone form .form-buttons input {
+    padding: 7px 30px;
+  }
+  .request-milestone form .form-buttons .button-ymp {
+    padding: 5px 30px;
+    display: -webkit-box;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+  }
+  #milestone-page {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  /*************** Project Awarded Page ***************/
+  .freelancers-awared {
+    padding-left: 30px;
+    padding-bottom: 90px;
+  }
+  .skill-requirement {
+    padding-bottom: 35px;
+  }
+  .padding-bottom-20 {
+    padding-bottom: 50px;
+  }
+  #awared-page {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  /*************** Post Project Page ***************/
+  #post-project {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .pick-cat.dropdown-toggle:after {
+    margin-left: 75%;
+  }
+  .sub-cat.dropdown-toggle:after {
+    margin-left: 55%;
+  }
+  .submit-info ul li {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .submit-info ul li:nth-child(1) {
+    margin-right: 0px;
+  }
+  .file-upload {
+    float: none;
+  }
+  .file-upload-btn p {
+    margin-top: 0px;
+  }
+  .experience-level {
+    padding-bottom: 50px;
+  }
+  .experience-level .entry {
+    margin-bottom: 30px;
+  }
+  .experience-level .intermediate {
+    margin-bottom: 30px;
+  }
+  .post-job-btn {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 37px;
+  }
+  .fixed-price-btn.dropdown-toggle:after {
+    margin-left: 62%;
+  }
+  .budget-btn.dropdown-toggle:after {
+    margin-left: 0%;
+  }
+  .currency-btn.dropdown-toggle:after {
+    margin-left: 75%;
+  }
+  .big-budget .custom-select {
+    width: 100%;
+  }
+  .select-work-type .custom-select {
+    width: 100%;
+  }
+  .select-currency .custom-select {
+    width: 100%;
+  }
+  .experience-level .xpbox input+label{
+      margin-bottom: 15px;
+  }
+  /*************** Dispute Page ***************/
+  .get-started-wrapper {
+        background-image: none;
+    }
+  /*************** Blog Pages ***************/
+  .sidebar {
+    padding-bottom: 0px;
+  }
+  /************** Footer Top ***************/
+  .footer-top {
+    padding: 30px 0px;
+  }
+  .footer-top .contact {
+    overflow: hidden;
+  }
+  .margin-top {
+    top: 0px;
+  }
+  .footer-top .widget-title {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+}

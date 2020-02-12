@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta name="applicategoriesion-name" content="">
+      <meta name="description" content="">
+      <title>Job Search</title>
+      <link rel="icon" href="img/Thumbnail.png">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+      <!-- Normalize -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/normalize.css">
+      <!-- Ico Font -->
+      <link rel="stylesheet" type="text/css" href="css/vendor/icofont/css/icofont.css">
+      <!-- Style Css -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- Paraia Multiselect -->
+      <link rel="stylesheet" href="css/vendor/paraia_multi_select.min.css">
+      <!-- Responsive Css -->
+      <link rel="stylesheet" type="text/css" href="responsive.css">
+   </head>
+   <body>
+      <!-- Header Start -->
+      <header>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 col-md-6 col-lg-7 order-sm-1 order-2 primary-menu-tm">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="home.html">Home (Without Login)</a></li>
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="index.html">Dashboard</a></li>
+                                 <li><a class="dropdown-item" href="financial-dashboard.html">Financial Dashboard</a></li>
+                                 <li><a class="dropdown-item" href="chatting-page.html">Live Chat</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Hire Freelancer<span class="sr-only">(current)</span></a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown">
+                                    <a class="dropdown-item" href="post-project.html">Post a Project</a>
+                                 </li>
+                                 <li><a class="dropdown-item" href="find-freelancer.html">Find Freelancer</a></li>
+                                 <li><a class="dropdown-item" href="dispute-page.html">Dispute</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="job-search.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Find Work</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="job-search.html">Browse Projects</a></li>
+                                 <li><a class="dropdown-item" href="bidding-page.html">Project Bidding</a></li>
+                                 <li><a class="dropdown-item" href="project-awarded.html">Project Awarded</a></li>
+                                 <li><a class="dropdown-item" href="project-in-progress.html">Project In Progress</a></li>
+                                 <li><a class="dropdown-item" href="milestone-request.html">Milestone Request</a></li>
+                                 <li><a class="dropdown-item" href="freelancer-profile-portfolio.html">Freelancer Profile</a></li>
+                              </ul>
+                           </li>
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="blog-page-right-sidebar.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                              <ul class="dropdown-menu">
+                                 <li class="nav-item dropdown"><a class="dropdown-item" href="blog-page-left-sidebar.html">Blog Left Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="blog-page-right-sidebar.html">Blog Right Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="single-post-left-sidebar.html">Single Post Left Sidebar</a></li>
+                                 <li><a class="dropdown-item" href="single-post-right-sidebar.html">Single Post Right Sidebar</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                           <input class="form-control mr-sm-2" type="search" placeholder="&#xed60; &#xeb25;  Find Freelancer" aria-label="Search" data-toggle="modal" data-target="#search-freelancer">
+                        </form>
+                     </div>
+                  </nav>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-5 order-sm-2 order-1 header-notification">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <ul class="navbar-nav ml-auto ymp-right-menu">
+                        <li class="nav-item">
+                           <a href="financial-dashboard.html" class="nav-link usd">USD $350 <span>32</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon heart" href="#" data-toggle="modal" data-target="#followed"><i class="far fa-heart"></i><span>1</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon bell" href="#" data-toggle="modal" data-target="#notification"><i class="far fa-bell"></i><span>1</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link nav-icon envolope" href="#" data-toggle="modal" data-target="#unread-messages"><i class="far fa-envelope"></i><span>1</span></a>
+                        </li>
+                        <li class="menu-bar dropdown dropdown-user">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <img src="img/profile-img.jpg" alt="">
+                           <span>Hi Sasha</span>
+                           </a>
+                           <ul class="dropdown-menu">
+                              <li class="nav-item dropdown"><a class="dropdown-item" href="freelancer-profile-portfolio.html">My Profile</a></li>
+                              <li><a class="dropdown-item" href="chatting-page.html">Message</a></li>
+                              <li><a class="dropdown-item" href="financial-dashboard.html">Financial Dashboard</a></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Header End -->
+      <!-- Top 5 Freelancer Modal Start -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="search-freelancer" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content top-freelancer">
+                     <div class="modal-body">
+                        <div class="modal-header">
+                           <p>Top 5 Freelancers</p>
+                           <a href="#">View</a>
+                        </div>
+                        <div class="form-content">
+                           <ul>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-1.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Design Rockers</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Design,</li>
+                                          <li>Photoshop,</li>
+                                          <li>Illustrator,</li>
+                                          <li>Illustration...</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>99% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-2.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Mahmudul Hasan Maruf</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Illustrator,</li>
+                                          <li>Broch...</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>100% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-3.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Sahinur Salafee</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Brochure Design.....</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>98% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-4.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>The Designers Group</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Adobe Photoshop... </li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>99% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="freelancer-tm">
+                                    <img src="img/search-5.jpg" alt="">
+                                    <div class="freelancers-info">
+                                       <div class="freelancers-name">
+                                          <p>Design Stockers</p>
+                                          <span><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <ul class="skill">
+                                          <li>Graphic Deisgn,</li>
+                                          <li>Icon,</li>
+                                          <li>Logo Design,</li>
+                                          <li>Adobe Photoshop.....</li>
+                                       </ul>
+                                       <ul class="review">
+                                          <li>5.0</li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li><i class="icofont icofont-star"></i></li>
+                                          <li>255 Reviews</li>
+                                          <li>100% Jobs Completed</li>
+                                       </ul>
+                                       <a href="#" class="button-ymp">Hire Me</a>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                           <div class="project-preview">
+                              <ul>
+                                 <li>
+                                    <h6 class="title">Projects</h6>
+                                    <p class="view"><a href="#">View</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design Project</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design</li>
+                                       <li>$20-$60 USD</li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Hire a Graphic</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$2-$10 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Logo</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$20-$40 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Professional e Commerce Website</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Web Design,</li>
+                                       <li>UI Design</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$700 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Tatto Ink</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Logo Design</li>
+                                       <li><span>$250-$400 USD</span></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                        <div class="tm-search">
+                           <a href="#">
+                              <span><i class="icofont icofont-search"></i></span>
+                              <p>Search all results for “web design”</p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->	
+      <!-- Modal Followed Projects -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="followed" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content top-freelancer">
+                     <div class="modal-body">
+                        <div class="form-content">
+                           <div class="project-preview">
+                              <ul>
+                                 <li>
+                                    <h6 class="title">Projects From Followed Employeers</h6>
+                                    <p class="view"><a href="#">View More</a></p>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design Project</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design</li>
+                                       <li>$20-$60 USD</li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Hire a Graphic</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$2-$10 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Logo</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$20-$40 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design a Professional e Commerce Website</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Web Design,</li>
+                                       <li>UI Design</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$700 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Design Project</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design</li>
+                                       <li>$20-$60 USD</li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Hire a Graphic</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Icon,</li>
+                                       <li>Logo Design,</li>
+                                       <li>Photoshop</li>
+                                       <li><span>$2-$10 USD</span></li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <p class="project-title">Tatto Ink</p>
+                                    <ul class="cat">
+                                       <li>Graphic Design,</li>
+                                       <li>Logo Design</li>
+                                       <li><span>$250-$400 USD</span></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->	
+      <!-- Modal Message -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="unread-messages" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content unread-messages">
+                     <div class="modal-body">
+                        <div class="chatting-page">
+                           <div class="chat-freelancers">
+                              <div class="users">
+                                 <ul>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-1.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">Amazingsoftware</a></p>
+                                          <p><a href="#" class="project-name">Multi Vendor Website</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-2.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">John65</a></p>
+                                          <p><a href="#" class="project-name">Write Some Software</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-3.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">BabyGirl</a></p>
+                                          <p><a href="#" class="project-name">Create Powerpoint Templete</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-4.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">MarketingWizard</a></p>
+                                          <p><a href="#" class="project-name">Write code get google drive</a></p>
+                                       </div>
+                                    </li>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-5.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="user-details">
+                                          <p><a href="#">Jenelia</a></p>
+                                          <p><a href="#" class="project-name">Google Write Code</a></p>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->
+      <!-- Modal Notification -->
+      <section class="modals">
+         <div class="container">
+            <div class="modal fade" id="notification" role="dialog" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content unread-messages">
+                     <div class="modal-body">
+                        <div class="chatting-page">
+                           <div class="chat-freelancers">
+                              <div class="users">
+                                 <ul>
+                                    <li class="active">
+                                       <div class="user-img">
+                                          <img src="img/chat/user-1.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Rafsan</b> released a $300.00 USD milestone payment for project <b>Website Designing</b></p>
+                                          <p class="notification-time">About 20 minutes ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-2.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>John Deo</b> released a $450.00 USD milestone payment for project <b>Website Development</b></p>
+                                          <p class="notification-time">About 40 minutes ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-3.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Denial Cook</b> released a $550.00 USD milestone payment for project <b>Graphic Design</b></p>
+                                          <p class="notification-time">About 50 minutes ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-4.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Mikel</b> released a $700.00 USD milestone payment for project <b>Logo Design</b></p>
+                                          <p class="notification-time">About 1 hour ago</p>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="user-img">
+                                          <img src="img/chat/user-5.jpg" alt="">
+                                          <span class="online-icon"><i class="icofont icofont-ui-press"></i></span>
+                                       </div>
+                                       <div class="notification-details">
+                                          <p class="notification-text"><b>Reek</b> released a $850.00 USD milestone payment for project <b>Wordpress Development</b></p>
+                                          <p class="notification-time">About 1 hour 20 minutes ago</p>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modals End -->
+      <section id="search-job">
+         <div class="container">
+            <div class="search-job">
+               <div class="row">
+                  <div class="col-sm-12 col-md-2 col-lg-2 margin-bottom padding-top">
+                     <div class="job-search-head">
+                        <p>Search Jobs</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-10 col-lg-10 margin-bottom padding-top">
+                     <div class="job-search-head">
+                        <input type="search" placeholder="&#xed60; Find Project and Contests">
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-2 col-lg-2 margin-bottom">
+                     <div class="job-search-head">
+                        <p>Skills</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-10 col-lg-10 margin-bottom">
+                     <div class="job-skill">
+                        <input type="text" class="form-control" name="brands" data-paraia-multi-select="true" placeholder="Select your skill">
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-2 col-lg-2 margin-bottom-6">
+                     <div class="job-search-head">
+                        <p>Job Types</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-10 col-lg-10 margin-bottom-6">
+                     <div class="job-types">
+                        <ul>
+                           <li>
+                              <label class="checkbox-btn">Fixed Price Projects
+                              <input type="checkbox" name="selector" checked="checked">
+                              <span class="checkmark"></span>
+                              </label>
+                           </li>
+                           <li>
+                              <label class="checkbox-btn">Hourly Project
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                              </label>
+                           </li>
+                           <li>
+                              <label class="checkbox-btn">Contests
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                              </label>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <div class="tab-content table-responsive" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-Milestones" role="tabpanel">
+                           <div class="db-info-details">
+                              <div class="job-types-table">
+                                 <table class="table">
+                                    <thead>
+                                       <tr>
+                                          <th scope="col" class="project-contest">Project/Contest</th>
+                                          <th scope="col">Bids</th>
+                                          <th scope="col">Started</th>
+                                          <th scope="col">Price(USD)</th>
+                                          <th scope="col">
+                                             <div class="book-mark-icon-active"><i class="icofont icofont-book-mark"></i></div>
+                                          </th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>
+                                             <i class="icofont icofont-imac"></i>
+                                             <div class="description">
+                                                <h5><a href="#">Web Development</a></h5>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                                <ul class="categories">
+                                                   <li><a href="#">PHP,</a></li>
+                                                   <li><a href="#">Web Design,</a></li>
+                                                   <li><a href="#">Graphic Design</a></li>
+                                                </ul>
+                                             </div>
+                                          </td>
+                                          <td>13</td>
+                                          <td>
+                                             Today
+                                             <div class="clock-icon"><i class="icofont icofont-clock-time">6d</i></div>
+                                          </td>
+                                          <td>$ 53<a href="#" class="button-ymp">Bid Now</a></td>
+                                          <td>
+                                             <div class="book-mark-icon"><i class="icofont icofont-book-mark"></i></div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <i class="icofont icofont-imac"></i>
+                                             <div class="description">
+                                                <h5><a href="#">Expert php guy to do work ongoing bases</a></h5>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                                <ul class="categories">
+                                                   <li><a href="#">PHP,</a></li>
+                                                   <li><a href="#">Web Design,</a></li>
+                                                   <li><a href="#">Javascript,</a></li>
+                                                   <li><a href="#">MySQL,</a></li>
+                                                   <li><a href="#">HTML</a></li>
+                                                </ul>
+                                             </div>
+                                          </td>
+                                          <td>32</td>
+                                          <td>
+                                             Today
+                                             <div class="clock-icon"><i class="icofont icofont-clock-time">6d</i></div>
+                                          </td>
+                                          <td>$ 5 /hr<a href="#" class="button-ymp">Bid Now</a></td>
+                                          <td>
+                                             <div class="book-mark-icon"><i class="icofont icofont-book-mark"></i></div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <i class="icofont icofont-imac"></i>
+                                             <div class="description">
+                                                <h5><a href="#">Make my search results page responsive</a></h5>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                                <ul class="categories">
+                                                   <li><a href="#">Web Design,</a></li>
+                                                   <li><a href="#">CSS,</a></li>
+                                                   <li><a href="#">HTML5,</a></li>
+                                                   <li><a href="#">HTML,</a></li>
+                                                   <li><a href="#">CSS3</a></li>
+                                                </ul>
+                                             </div>
+                                          </td>
+                                          <td>13</td>
+                                          <td>
+                                             Today
+                                             <div class="clock-icon"><i class="icofont icofont-clock-time">6d</i></div>
+                                          </td>
+                                          <td>$ 30<a href="#" class="button-ymp">Bid Now</a></td>
+                                          <td>
+                                             <div class="book-mark-icon"><i class="icofont icofont-book-mark"></i></div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <i class="icofont icofont-imac"></i>
+                                             <div class="description">
+                                                <h5><a href="#">Convert Site to Wordpress Friendly</a></h5>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                                <ul class="categories">
+                                                   <li><a href="#">PHP,</a></li>
+                                                   <li><a href="#">Web Design,</a></li>
+                                                   <li><a href="#">Graphic Design,</a></li>
+                                                   <li><a href="#">Wordpress,</a></li>
+                                                   <li><a href="#">HTML</a></li>
+                                                </ul>
+                                             </div>
+                                          </td>
+                                          <td>13</td>
+                                          <td>
+                                             Today
+                                             <div class="clock-icon"><i class="icofont icofont-clock-time">6d</i></div>
+                                          </td>
+                                          <td>$ 30<a href="#" class="button-ymp">Bid Now</a></td>
+                                          <td>
+                                             <div class="book-mark-icon"><i class="icofont icofont-book-mark"></i></div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <i class="icofont icofont-imac"></i>
+                                             <div class="description">
+                                                <h5><a href="#">Hire a Website Designer</a></h5>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                                <ul class="categories">
+                                                   <li><a href="#">Graphic Design,</a></li>
+                                                   <li><a href="#">Web Design</a></li>
+                                                </ul>
+                                             </div>
+                                          </td>
+                                          <td>32</td>
+                                          <td>
+                                             Today
+                                             <div class="clock-icon"><i class="icofont icofont-clock-time">6d</i></div>
+                                          </td>
+                                          <td>$ 5 /hr<a href="#" class="button-ymp">Bid Now</a></td>
+                                          <td>
+                                             <div class="book-mark-icon"><i class="icofont icofont-book-mark"></i></div>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <i class="icofont icofont-imac"></i>
+                                             <div class="description">
+                                                <h5><a href="#">Amazon storen set up</a></h5>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                                <ul class="categories">
+                                                   <li><a href="#">Web Design,</a></li>
+                                                   <li><a href="#">Graphic Design</a></li>
+                                                   <li><a href="#">Logo Design</a></li>
+                                                   <li><a href="#">Branding</a></li>
+                                                </ul>
+                                             </div>
+                                          </td>
+                                          <td>13</td>
+                                          <td>
+                                             Today
+                                             <div class="clock-icon"><i class="icofont icofont-clock-time">6d</i></div>
+                                          </td>
+                                          <td>$ 130<a href="#" class="button-ymp">Bid Now</a></td>
+                                          <td>
+                                             <div class="book-mark-icon"><i class="icofont icofont-book-mark"></i></div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <div class="posts clearfix">
+                                    <p>Showing 1 to 10 of 240 entries</p>
+                                    <div class="pagination-tm">
+                                       <ul>
+                                          <li><a href="#"><i class="icofont icofont-curved-double-left"></i></a></li>
+                                          <li><a href="#"><i class="icofont icofont-curved-left"></i></a></li>
+                                          <li><a href="#">1</a></li>
+                                          <li><a href="#">2</a></li>
+                                          <li><a href="#"><i class="icofont icofont-curved-right"></i></a></li>
+                                          <li><a href="#"><i class="icofont icofont-curved-double-right"></i></a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer Start -->
+      <footer id="footer" class="margin-top">
+         <div class="footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">About Us</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Quick Links</h4>
+                     <ul>
+                        <li><a href="#">Success stories</a></li>
+                        <li><a href="#">Take the first Step</a></li>
+                        <li><a href="#">Get started in minutes</a></li>
+                        <li><a href="#">Featured on</a></li>
+                        <li><a href="#">Top 5 freelancers</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Support</h4>
+                     <ul>
+                        <li><a href="#">Live chat</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Support HQ</a></li>
+                        <li><a href="#">Trust & Safety</a></li>
+                        <li><a href="#">Submit a Ticket</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                     <h4 class="widget-title">Get In Touch</h4>
+                     <div class="contact">
+                        <ul>
+                           <li>
+                              <i class="icofont icofont-iphone"></i>
+                              <a href="tel:+8801717722179">+880 1717 722179</a>
+                           </li>
+                           <li>
+                              <i class="icofont icofont-send-mail"></i>
+                              <a href="mailto:hq@thememom.com">hq@thememom.com</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="footer-inline">
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-skype"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-brand-linkedin"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-youtube-play"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>
+                           <li><a href="#"><i class="icofont icofont-social-pinterest"></i></a></li>
+                        </ul>
+                        <ul class="applicategoriesion-store">
+                           <li><a href="#"><img src="img/store/app-store.png" alt=""></a></li>
+                           <li><a href="#"><img src="img/store/play-store.png" alt=""></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <p class="copyright">© 2018 <a href="#">Yes Market Place</a> International Limited | Developed by <a href="https://thememom.com" title="ThemeMom" target="_blank">ThemeMom</a> </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End -->
+      <script src="js/vendor/font-awesome.js"></script>
+      <script src="js/vendor/tether.min.js"></script>
+      <script src="js/vendor/popper.min.js"></script>
+      <script src="js/vendor/jquery-3.3.1.slim.min.js"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/vendor/paraia_multi_select.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/multiselect.js"></script>
+   </body>
+</html>
